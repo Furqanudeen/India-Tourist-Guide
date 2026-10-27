@@ -183,18 +183,20 @@ export default function ItineraryBuilder({
               <Layers className="w-3.5 h-3.5 text-orange-600" />
               <span>3. Primary Travel Theme</span>
             </label>
-            <div className="grid grid-cols-2 gap-2">
-              {themes.slice(0, 2).map((t) => (
+            <div className="grid grid-cols-2 gap-1.5">
+              {themes.map((t) => (
                 <button
                   key={t.id}
                   onClick={() => setTravelTheme(t.id)}
-                  className={`py-2 px-2.5 rounded-xl text-xs font-bold border text-left transition-all cursor-pointer ${
+                  title={t.desc}
+                  className={`py-2 px-2 rounded-xl text-[11px] font-bold border text-left transition-all cursor-pointer flex items-center gap-1.5 ${
                     travelTheme === t.id
-                      ? 'bg-slate-900 text-white border-slate-900'
+                      ? 'bg-slate-900 text-white border-slate-900 shadow-sm'
                       : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
                   }`}
                 >
-                  <span className="mr-1">{t.icon}</span> {t.label.split('&')[0]}
+                  <span className="shrink-0">{t.icon}</span>
+                  <span className="truncate">{t.label.split('&')[0]}</span>
                 </button>
               ))}
             </div>

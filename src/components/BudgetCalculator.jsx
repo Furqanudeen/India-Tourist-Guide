@@ -440,7 +440,7 @@ Planned with Incredible India Tourist Guide & Budget Planner`;
         </div>
 
         {/* Right Column: Dynamic Real-Time Output Card */}
-        <div className="lg:col-span-5 space-y-6">
+        <div className="lg:col-span-5 space-y-6 lg:sticky lg:top-24 max-h-none lg:max-h-[calc(100vh-7rem)] overflow-y-auto scrollbar-thin">
           
           {/* Main Calculation Card */}
           <div className="bg-slate-950 text-white rounded-3xl p-6 sm:p-8 shadow-2xl border border-slate-800 relative overflow-hidden">

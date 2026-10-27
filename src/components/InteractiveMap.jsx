@@ -334,7 +334,7 @@ export default function InteractiveMap({
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
           
           {/* Mode Tabs */}
-          <div className="flex items-center gap-1.5 p-1 bg-slate-100/90 rounded-2xl overflow-x-auto text-xs font-bold text-slate-600">
+          <div className="flex items-center gap-1.5 p-1 bg-slate-100/90 rounded-2xl overflow-x-auto scrollbar-none text-xs font-bold text-slate-600">
             <button
               onClick={() => { setColorMode('landscape'); setActiveLegendFilter(null); }}
               className={`px-3.5 py-2 rounded-xl transition-all flex items-center gap-1.5 whitespace-nowrap cursor-pointer ${
@@ -527,13 +527,13 @@ export default function InteractiveMap({
             ref={svgContainerRef}
             onMouseMove={handleMouseMove}
             onMouseLeave={handleMouseLeave}
-            className="w-full relative flex items-center justify-center min-h-[460px] sm:min-h-[580px] bg-radial from-amber-50/40 via-transparent to-transparent rounded-2xl select-none"
+            className="w-full relative flex items-center justify-center min-h-[460px] sm:min-h-[580px] bg-radial from-amber-50/40 via-transparent to-transparent rounded-2xl select-none overflow-hidden"
             style={{ touchAction: 'pan-x pan-y' }}
           >
             <svg
               viewBox="0 0 612 696"
               className="w-full max-h-[620px] transition-transform duration-300 ease-out drop-shadow-sm"
-              style={{ transform: `scale(${zoomLevel})` }}
+              style={{ transform: `scale(${zoomLevel})`, transformOrigin: 'center center' }}
             >
               <defs>
                 <filter id="active-glow" x="-20%" y="-20%" width="140%" height="140%">
@@ -685,7 +685,7 @@ export default function InteractiveMap({
         </div>
 
         {/* Right Column: Selected State Dossier / Spotlight Card */}
-        <div className="lg:col-span-5 bg-white rounded-3xl overflow-hidden border border-slate-200/80 shadow-lg sticky top-28">
+        <div className="lg:col-span-5 bg-white rounded-3xl overflow-hidden border border-slate-200/80 shadow-lg lg:sticky lg:top-24 max-h-none lg:max-h-[calc(100vh-7rem)] flex flex-col">
           
           {/* Northern Crown Dual Selector (If J&K or Ladakh is active) */}
           {(selectedState.id === 'jammu-and-kashmir' || selectedState.id === 'ladakh' || selectedStateId === 'jk-split') && (
@@ -763,7 +763,7 @@ export default function InteractiveMap({
           </div>
 
           {/* Dossier Body */}
-          <div className="p-5 sm:p-6 space-y-5">
+          <div className="p-5 sm:p-6 space-y-5 overflow-y-auto flex-1 scrollbar-thin">
             
             {/* Tagline */}
             <p className="text-sm font-semibold text-slate-700 italic border-l-2 border-orange-500 pl-3">

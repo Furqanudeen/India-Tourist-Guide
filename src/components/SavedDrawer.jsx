@@ -34,7 +34,7 @@ export default function SavedDrawer({
 
   return (
     <div 
-      className="fixed inset-0 z-50 overflow-hidden bg-slate-950/70 backdrop-blur-xs flex justify-end animate-in fade-in duration-200"
+      className="fixed inset-0 z-50 overflow-hidden bg-slate-950/70 backdrop-blur-sm flex justify-end animate-in fade-in duration-200"
       onClick={onClose}
     >
       <div 

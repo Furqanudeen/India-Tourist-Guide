@@ -53,16 +53,16 @@ export default function StateModal({
 
   return (
     <div 
-      className="fixed inset-0 z-50 overflow-y-auto bg-slate-950/75 backdrop-blur-md flex items-center justify-center p-2 sm:p-4 md:p-6 animate-in fade-in duration-200"
+      className="fixed inset-0 z-50 overflow-y-auto bg-slate-950/75 backdrop-blur-md flex items-start sm:items-center justify-center p-3 sm:p-4 md:p-6 animate-in fade-in duration-200"
       onClick={onClose}
     >
       {/* Modal Container */}
       <div 
-        className="relative w-full max-w-4xl bg-white rounded-3xl overflow-hidden shadow-2xl border border-slate-200/80 max-h-[94vh] flex flex-col animate-in zoom-in-95 duration-200 my-auto"
+        className="relative w-full max-w-4xl bg-white rounded-3xl overflow-hidden shadow-2xl border border-slate-200/80 max-h-[92vh] flex flex-col animate-in zoom-in-95 duration-200 my-auto"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Modal Header / Banner */}
-        <div className="relative h-64 sm:h-80 md:h-96 w-full bg-slate-950 shrink-0 overflow-hidden">
+        <div className="relative h-52 sm:h-64 md:h-72 w-full bg-slate-950 shrink-0 overflow-hidden">
           <img 
             src={state.banner} 
             alt={state.name} 
