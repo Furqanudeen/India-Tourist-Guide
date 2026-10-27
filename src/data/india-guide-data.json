@@ -22,15 +22,48 @@
         "Vibrant annual fairs including Pushkar Camel Fair"
       ],
       "famousCuisine": [
-        { "name": "Dal Baati Churma", "desc": "Crispy baked wheat dumplings steeped in desi ghee, paired with spicy lentils and sweet crushed jaggery wheat." },
-        { "name": "Laal Maas", "desc": "Fiery royal mutton curry prepared in whole Mathania red chilies and yogurt." },
-        { "name": "Ghevar & Pyaaz Kachori", "desc": "Honeycomb disc pastry dipped in saffron sugar syrup alongside flaky onion pastries." }
+        {
+          "name": "Dal Baati Churma",
+          "desc": "Crispy baked wheat dumplings steeped in desi ghee, paired with spicy lentils and sweet crushed jaggery wheat."
+        },
+        {
+          "name": "Laal Maas",
+          "desc": "Fiery royal mutton curry prepared in whole Mathania red chilies and yogurt."
+        },
+        {
+          "name": "Ghevar & Pyaaz Kachori",
+          "desc": "Honeycomb disc pastry dipped in saffron sugar syrup alongside flaky onion pastries."
+        }
       ],
       "attractions": [
-        { "name": "Amber Fort", "city": "Jaipur", "tag": "UNESCO World Heritage", "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=600&q=80", "desc": "Opulent yellow-sandstone fortress with Sheesh Mahal (Mirror Palace) overlooking Maota Lake." },
-        { "name": "Mehrangarh Fort", "city": "Jodhpur", "tag": "Imposing Citadel", "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80", "desc": "Perched 400 feet above the Blue City, offering breathtaking ramparts and royal palanquins." },
-        { "name": "Lake Pichola & City Palace", "city": "Udaipur", "tag": "Venice of the East", "image": "https://images.unsplash.com/photo-1615836245337-f5b9b2303f10?auto=format&fit=crop&w=600&q=80", "desc": "Marble wonder rising out of tranquil waters with views of the floating Jag Mandir." },
-        { "name": "Sam Sand Dunes", "city": "Jaisalmer", "tag": "Thar Desert", "image": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=600&q=80", "desc": "Sunset camel safaris, desert folk camps, and stargazing under crisp desert skies." }
+        {
+          "name": "Amber Fort",
+          "city": "Jaipur",
+          "tag": "UNESCO World Heritage",
+          "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=600&q=80",
+          "desc": "Opulent yellow-sandstone fortress with Sheesh Mahal (Mirror Palace) overlooking Maota Lake."
+        },
+        {
+          "name": "Mehrangarh Fort",
+          "city": "Jodhpur",
+          "tag": "Imposing Citadel",
+          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+          "desc": "Perched 400 feet above the Blue City, offering breathtaking ramparts and royal palanquins."
+        },
+        {
+          "name": "Lake Pichola & City Palace",
+          "city": "Udaipur",
+          "tag": "Venice of the East",
+          "image": "https://images.unsplash.com/photo-1615836245337-f5b9b2303f10?auto=format&fit=crop&w=600&q=80",
+          "desc": "Marble wonder rising out of tranquil waters with views of the floating Jag Mandir."
+        },
+        {
+          "name": "Sam Sand Dunes",
+          "city": "Jaisalmer",
+          "tag": "Thar Desert",
+          "image": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=600&q=80",
+          "desc": "Sunset camel safaris, desert folk camps, and stargazing under crisp desert skies."
+        }
       ],
       "travelTips": "Dress modestly at temples and forts. Keep hydration handy in the daytime. Pre-book royal palace museum entry tickets to skip queues."
     },
@@ -56,15 +89,48 @@
         "Spiritual ritual performance of Theyyam in Malabar"
       ],
       "famousCuisine": [
-        { "name": "Appam with Vegetable Ishtu", "desc": "Lacy fermented rice batter pancakes paired with coconut milk simmered stew." },
-        { "name": "Kerala Sadya", "desc": "Grand 24-course vegetarian banquet served traditionally on a fresh plantain leaf." },
-        { "name": "Malabar Fish Curry", "desc": "Tangy, spicy mackerel or kingfish infused with kokum and fresh ground coconut paste." }
+        {
+          "name": "Appam with Vegetable Ishtu",
+          "desc": "Lacy fermented rice batter pancakes paired with coconut milk simmered stew."
+        },
+        {
+          "name": "Kerala Sadya",
+          "desc": "Grand 24-course vegetarian banquet served traditionally on a fresh plantain leaf."
+        },
+        {
+          "name": "Malabar Fish Curry",
+          "desc": "Tangy, spicy mackerel or kingfish infused with kokum and fresh ground coconut paste."
+        }
       ],
       "attractions": [
-        { "name": "Alleppey Backwaters", "city": "Alappuzha", "tag": "Houseboat Haven", "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=600&q=80", "desc": "Drift along sleepy canal villages, paddy fields, and lagoons on thatched luxury houseboats." },
-        { "name": "Munnar Tea Plantations", "city": "Munnar", "tag": "Misty Highlands", "image": "https://images.unsplash.com/photo-1596401057633-54a8fe8ef647?auto=format&fit=crop&w=600&q=80", "desc": "Rolling emerald hills carpets, tea tasting museums, and sightings of endangered Nilgiri Tahr." },
-        { "name": "Fort Kochi", "city": "Kochi", "tag": "Colonial Heritage", "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=600&q=80", "desc": "Iconic cantilevered Chinese fishing nets, Portuguese synagogues, spice markets, and art cafes." },
-        { "name": "Varkala Cliff Beach", "city": "Varkala", "tag": "Red Sandstone Cliffs", "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80", "desc": "Dramatic coastal cliffs overlooking the Arabian Sea, yoga shalas, and natural spring waters." }
+        {
+          "name": "Alleppey Backwaters",
+          "city": "Alappuzha",
+          "tag": "Houseboat Haven",
+          "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=600&q=80",
+          "desc": "Drift along sleepy canal villages, paddy fields, and lagoons on thatched luxury houseboats."
+        },
+        {
+          "name": "Munnar Tea Plantations",
+          "city": "Munnar",
+          "tag": "Misty Highlands",
+          "image": "https://images.unsplash.com/photo-1596401057633-54a8fe8ef647?auto=format&fit=crop&w=600&q=80",
+          "desc": "Rolling emerald hills carpets, tea tasting museums, and sightings of endangered Nilgiri Tahr."
+        },
+        {
+          "name": "Fort Kochi",
+          "city": "Kochi",
+          "tag": "Colonial Heritage",
+          "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=600&q=80",
+          "desc": "Iconic cantilevered Chinese fishing nets, Portuguese synagogues, spice markets, and art cafes."
+        },
+        {
+          "name": "Varkala Cliff Beach",
+          "city": "Varkala",
+          "tag": "Red Sandstone Cliffs",
+          "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
+          "desc": "Dramatic coastal cliffs overlooking the Arabian Sea, yoga shalas, and natural spring waters."
+        }
       ],
       "travelTips": "Book overnight houseboat stays well in advance during Dec-Jan. Respect eco-tourism guidelines in Wayanad and Periyar reserves."
     },
@@ -90,15 +156,48 @@
         "Chamba Rumal and intricate handwoven Kullu shawls"
       ],
       "famousCuisine": [
-        { "name": "Himachali Dham", "desc": "Traditional celebratory meal prepared by Botis, featuring Madra (chickpeas in curd), Mah ki Dal, and Khatta." },
-        { "name": "Siddu", "desc": "Steamed wheat bread stuffed with spiced crushed walnuts, poppy seeds, and dipped in warm ghee." },
-        { "name": "Tudkiya Bhath", "desc": "Piquant Himachali one-pot pulao cooked with lentils, potatoes, cardamom, and curd." }
+        {
+          "name": "Himachali Dham",
+          "desc": "Traditional celebratory meal prepared by Botis, featuring Madra (chickpeas in curd), Mah ki Dal, and Khatta."
+        },
+        {
+          "name": "Siddu",
+          "desc": "Steamed wheat bread stuffed with spiced crushed walnuts, poppy seeds, and dipped in warm ghee."
+        },
+        {
+          "name": "Tudkiya Bhath",
+          "desc": "Piquant Himachali one-pot pulao cooked with lentils, potatoes, cardamom, and curd."
+        }
       ],
       "attractions": [
-        { "name": "Spiti Valley", "city": "Kaza", "tag": "Cold Desert Mountain", "image": "https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?auto=format&fit=crop&w=600&q=80", "desc": "1000-year-old Key Monastery, Chandratal lake, and high-altitude hamlets untouched by time." },
-        { "name": "Solang Valley & Rohtang", "city": "Manali", "tag": "Adventure Capital", "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=600&q=80", "desc": "Paragliding, skiing, zorbing, and breathtaking views of Pir Panjal mountain ranges." },
-        { "name": "Tsuglagkhang Complex", "city": "Dharamshala", "tag": "His Holiness Dalai Lama's Abode", "image": "https://images.unsplash.com/photo-1605649487212-47bdab064df8?auto=format&fit=crop&w=600&q=80", "desc": "Serene spiritual complex with monastery, Namgyal stupa, and Tibetan institute of performing arts." },
-        { "name": "Jibhi & Tirthan Valley", "city": "Kullu", "tag": "Untouched Nature", "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80", "desc": "Crystalline trout streams, cedar treehouses, and gateway to Great Himalayan National Park." }
+        {
+          "name": "Spiti Valley",
+          "city": "Kaza",
+          "tag": "Cold Desert Mountain",
+          "image": "https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?auto=format&fit=crop&w=600&q=80",
+          "desc": "1000-year-old Key Monastery, Chandratal lake, and high-altitude hamlets untouched by time."
+        },
+        {
+          "name": "Solang Valley & Rohtang",
+          "city": "Manali",
+          "tag": "Adventure Capital",
+          "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=600&q=80",
+          "desc": "Paragliding, skiing, zorbing, and breathtaking views of Pir Panjal mountain ranges."
+        },
+        {
+          "name": "Tsuglagkhang Complex",
+          "city": "Dharamshala",
+          "tag": "His Holiness Dalai Lama's Abode",
+          "image": "https://images.unsplash.com/photo-1605649487212-47bdab064df8?auto=format&fit=crop&w=600&q=80",
+          "desc": "Serene spiritual complex with monastery, Namgyal stupa, and Tibetan institute of performing arts."
+        },
+        {
+          "name": "Jibhi & Tirthan Valley",
+          "city": "Kullu",
+          "tag": "Untouched Nature",
+          "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
+          "desc": "Crystalline trout streams, cedar treehouses, and gateway to Great Himalayan National Park."
+        }
       ],
       "travelTips": "Carry motion sickness meds for winding mountain passes. Layer clothing even in summer as evenings turn chilly rapidly."
     },
@@ -124,15 +223,48 @@
         "Cashew feni distillation traditions and spice plantation walks"
       ],
       "famousCuisine": [
-        { "name": "Goan Prawn Curry with Poee", "desc": "Succulent prawns simmered in fiery coconut and red tamarind gravy served with fresh local crusty bread." },
-        { "name": "Pork or Chicken Vindaloo", "desc": "Portuguese-influenced dish steeped in vinegar, garlic, and Kashmiri red chilies." },
-        { "name": "Bebinca", "desc": "Rich traditional multi-layered Indo-Portuguese pudding made from coconut milk, egg yolks, and nutmeg." }
+        {
+          "name": "Goan Prawn Curry with Poee",
+          "desc": "Succulent prawns simmered in fiery coconut and red tamarind gravy served with fresh local crusty bread."
+        },
+        {
+          "name": "Pork or Chicken Vindaloo",
+          "desc": "Portuguese-influenced dish steeped in vinegar, garlic, and Kashmiri red chilies."
+        },
+        {
+          "name": "Bebinca",
+          "desc": "Rich traditional multi-layered Indo-Portuguese pudding made from coconut milk, egg yolks, and nutmeg."
+        }
       ],
       "attractions": [
-        { "name": "Basilica of Bom Jesus", "city": "Old Goa", "tag": "World Heritage Church", "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=600&q=80", "desc": "16th-century baroque architecture enshrining the mortal remains of St. Francis Xavier." },
-        { "name": "Palolem Beach", "city": "Canacona", "tag": "Crescent Paradise", "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80", "desc": "Calm azure waters ideal for kayaking with dolphins, silent noise parties, and relaxed beach shacks." },
-        { "name": "Fontainhas Latin Quarter", "city": "Panaji", "tag": "Heritage Architecture", "image": "https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?auto=format&fit=crop&w=600&q=80", "desc": "Narrow winding cobblestone alleys lined with vibrant yellow, blue, and terracotta Portuguese villas." },
-        { "name": "Dudhsagar Waterfalls", "city": "Sonaulim", "tag": "Sea of Milk", "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80", "desc": "Four-tiered roaring 310m cascade nestled in Bhagwan Mahaveer Sanctuary, crossed by railway viaduct." }
+        {
+          "name": "Basilica of Bom Jesus",
+          "city": "Old Goa",
+          "tag": "World Heritage Church",
+          "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=600&q=80",
+          "desc": "16th-century baroque architecture enshrining the mortal remains of St. Francis Xavier."
+        },
+        {
+          "name": "Palolem Beach",
+          "city": "Canacona",
+          "tag": "Crescent Paradise",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80",
+          "desc": "Calm azure waters ideal for kayaking with dolphins, silent noise parties, and relaxed beach shacks."
+        },
+        {
+          "name": "Fontainhas Latin Quarter",
+          "city": "Panaji",
+          "tag": "Heritage Architecture",
+          "image": "https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?auto=format&fit=crop&w=600&q=80",
+          "desc": "Narrow winding cobblestone alleys lined with vibrant yellow, blue, and terracotta Portuguese villas."
+        },
+        {
+          "name": "Dudhsagar Waterfalls",
+          "city": "Sonaulim",
+          "tag": "Sea of Milk",
+          "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
+          "desc": "Four-tiered roaring 310m cascade nestled in Bhagwan Mahaveer Sanctuary, crossed by railway viaduct."
+        }
       ],
       "travelTips": "Renting a scooter/bike requires a valid driving license and mandatory helmet. Respect local beach swim flags indicating red safe zones."
     },
@@ -158,15 +290,48 @@
         "Stargazing sanctuaries and Hanle Dark Sky Reserve"
       ],
       "famousCuisine": [
-        { "name": "Thukpa & Tingmo", "desc": "Steaming hot Tibetan noodle soup with local vegetables and herbs served with pillowy steamed bread." },
-        { "name": "Chhurpi & Butter Tea (Gur Gur Chai)", "desc": "Yak cheese delicacy accompanied by salted churned tea made with yak butter and tea leaves." },
-        { "name": "Skyu", "desc": "Traditional Ladakhi comfort stew made with hand-kneaded thumb dough pasta and root vegetables." }
+        {
+          "name": "Thukpa & Tingmo",
+          "desc": "Steaming hot Tibetan noodle soup with local vegetables and herbs served with pillowy steamed bread."
+        },
+        {
+          "name": "Chhurpi & Butter Tea (Gur Gur Chai)",
+          "desc": "Yak cheese delicacy accompanied by salted churned tea made with yak butter and tea leaves."
+        },
+        {
+          "name": "Skyu",
+          "desc": "Traditional Ladakhi comfort stew made with hand-kneaded thumb dough pasta and root vegetables."
+        }
       ],
       "attractions": [
-        { "name": "Pangong Tso Lake", "city": "Changtang", "tag": "Endorheic Wonder", "image": "https://images.unsplash.com/photo-1566836610593-61a3c627b409?auto=format&fit=crop&w=600&q=80", "desc": "Saline lake that magically shifts shades from deep turquoise to cobalt blue against bare brown peaks." },
-        { "name": "Nubra Valley & Hunder Sand Dunes", "city": "Diskit", "tag": "Valley of Flowers", "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80", "desc": "White dunes with double-humped Bactrian camels and the giant 32-meter Maitreya Buddha statue." },
-        { "name": "Thiksey Monastery", "city": "Leh", "tag": "Mini Potala", "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80", "desc": "Twelve-story Tibetan Buddhist complex perched commandingly over the Indus Valley." },
-        { "name": "Khardung La Pass", "city": "Leh", "tag": "High-Altitude Pass", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80", "desc": "Legendary mountain pass at 17,982 ft connecting the Indus Valley to the Shyok and Nubra valleys." }
+        {
+          "name": "Pangong Tso Lake",
+          "city": "Changtang",
+          "tag": "Endorheic Wonder",
+          "image": "https://images.unsplash.com/photo-1566836610593-61a3c627b409?auto=format&fit=crop&w=600&q=80",
+          "desc": "Saline lake that magically shifts shades from deep turquoise to cobalt blue against bare brown peaks."
+        },
+        {
+          "name": "Nubra Valley & Hunder Sand Dunes",
+          "city": "Diskit",
+          "tag": "Valley of Flowers",
+          "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
+          "desc": "White dunes with double-humped Bactrian camels and the giant 32-meter Maitreya Buddha statue."
+        },
+        {
+          "name": "Thiksey Monastery",
+          "city": "Leh",
+          "tag": "Mini Potala",
+          "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80",
+          "desc": "Twelve-story Tibetan Buddhist complex perched commandingly over the Indus Valley."
+        },
+        {
+          "name": "Khardung La Pass",
+          "city": "Leh",
+          "tag": "High-Altitude Pass",
+          "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80",
+          "desc": "Legendary mountain pass at 17,982 ft connecting the Indus Valley to the Shyok and Nubra valleys."
+        }
       ],
       "travelTips": "Acclimatize in Leh for at least 48 hours before heading higher. Inner Line Permits (ILP) are mandatory for Pangong, Nubra, and Hanle."
     },
@@ -192,15 +357,48 @@
         "Kumbh Mela, the largest spiritual gathering on Earth"
       ],
       "famousCuisine": [
-        { "name": "Galouti Kebab & Sheermal", "desc": "Melt-in-the-mouth Awadhi minced patties infused with over 100 secret spices, eaten with saffron flatbread." },
-        { "name": "Banarasi Kachori Jalebi & Paan", "desc": "Urad dal kachori with spiced hing aloo curry followed by crispy sweet jalebis and meetha paan." },
-        { "name": "Agra Petha", "desc": "Translucent candied ash gourd sweet flavoured with saffron, rose, or kewra." }
+        {
+          "name": "Galouti Kebab & Sheermal",
+          "desc": "Melt-in-the-mouth Awadhi minced patties infused with over 100 secret spices, eaten with saffron flatbread."
+        },
+        {
+          "name": "Banarasi Kachori Jalebi & Paan",
+          "desc": "Urad dal kachori with spiced hing aloo curry followed by crispy sweet jalebis and meetha paan."
+        },
+        {
+          "name": "Agra Petha",
+          "desc": "Translucent candied ash gourd sweet flavoured with saffron, rose, or kewra."
+        }
       ],
       "attractions": [
-        { "name": "Taj Mahal", "city": "Agra", "tag": "7 Wonders of the World", "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=600&q=80", "desc": "Ivory-white marble mausoleum on the south bank of the Yamuna, a sublime testament to eternal love." },
-        { "name": "Dashashwamedh Ghat", "city": "Varanasi", "tag": "Sacred Mother Ganga", "image": "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=600&q=80", "desc": "Experience dawn boat rides witnessing spiritual life and the captivating evening Maha Aarti." },
-        { "name": "Bara Imambara", "city": "Lucknow", "tag": "Architectural Marvel", "image": "https://images.unsplash.com/photo-1620619767323-b95a89183081?auto=format&fit=crop&w=600&q=80", "desc": "Vast vaulted hall built without iron or wood beams, housing the famous Bhool Bhulaiya labyrinth." },
-        { "name": "Fatehpur Sikri", "city": "Agra", "tag": "Red Sandstone City", "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=600&q=80", "desc": "Emperor Akbar's abandoned 16th-century imperial capital featuring the towering Buland Darwaza." }
+        {
+          "name": "Taj Mahal",
+          "city": "Agra",
+          "tag": "7 Wonders of the World",
+          "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=600&q=80",
+          "desc": "Ivory-white marble mausoleum on the south bank of the Yamuna, a sublime testament to eternal love."
+        },
+        {
+          "name": "Dashashwamedh Ghat",
+          "city": "Varanasi",
+          "tag": "Sacred Mother Ganga",
+          "image": "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=600&q=80",
+          "desc": "Experience dawn boat rides witnessing spiritual life and the captivating evening Maha Aarti."
+        },
+        {
+          "name": "Bara Imambara",
+          "city": "Lucknow",
+          "tag": "Architectural Marvel",
+          "image": "https://images.unsplash.com/photo-1620619767323-b95a89183081?auto=format&fit=crop&w=600&q=80",
+          "desc": "Vast vaulted hall built without iron or wood beams, housing the famous Bhool Bhulaiya labyrinth."
+        },
+        {
+          "name": "Fatehpur Sikri",
+          "city": "Agra",
+          "tag": "Red Sandstone City",
+          "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=600&q=80",
+          "desc": "Emperor Akbar's abandoned 16th-century imperial capital featuring the towering Buland Darwaza."
+        }
       ],
       "travelTips": "Taj Mahal remains closed on Fridays. In Varanasi, early sunrise boat rides (5:30 AM) offer the most serene perspective of the ghats."
     },
@@ -226,15 +424,48 @@
         "Bamboo and cane basketry and handwoven Ryndia silk"
       ],
       "famousCuisine": [
-        { "name": "Jadoh with Dohkhleh", "desc": "Fragrant short-grain rice cooked in rich meat stock served with refreshing pork and onion salad." },
-        { "name": "Tungrymbai", "desc": "Fermented soybean paste sautéed with pork, black sesame seeds, and local ginger." },
-        { "name": "Pukhlein", "desc": "Crispy deep-fried sweet Khasi rice flour treats sweetened with jaggery." }
+        {
+          "name": "Jadoh with Dohkhleh",
+          "desc": "Fragrant short-grain rice cooked in rich meat stock served with refreshing pork and onion salad."
+        },
+        {
+          "name": "Tungrymbai",
+          "desc": "Fermented soybean paste sautéed with pork, black sesame seeds, and local ginger."
+        },
+        {
+          "name": "Pukhlein",
+          "desc": "Crispy deep-fried sweet Khasi rice flour treats sweetened with jaggery."
+        }
       ],
       "attractions": [
-        { "name": "Double Decker Living Root Bridge", "city": "Nongriat", "tag": "Bio-Engineered Wonder", "image": "https://images.unsplash.com/photo-1596895111956-bf1cf0599ce5?auto=format&fit=crop&w=600&q=80", "desc": "Trek down 3,500 stone stairs through rainforest to witness two-tier living root bridges spanning river rapids." },
-        { "name": "Dawki & Umngot River", "city": "Dawki", "tag": "Floating on Air", "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80", "desc": "Emerald river water so crystalline that wooden canoes appear to float suspended in air." },
-        { "name": "Nohkalikai Falls", "city": "Cherrapunji", "tag": "Tallest Plunge Waterfall", "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80", "desc": "Stunning 340-meter single drop waterfall plunging into an electric green pool amid misty cliffs." },
-        { "name": "Mawlynnong Village", "city": "East Khasi Hills", "tag": "God's Own Garden", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80", "desc": "Renowned as Asia's cleanest village, featuring immaculate floral lanes and treehouse lookouts." }
+        {
+          "name": "Double Decker Living Root Bridge",
+          "city": "Nongriat",
+          "tag": "Bio-Engineered Wonder",
+          "image": "https://images.unsplash.com/photo-1596895111956-bf1cf0599ce5?auto=format&fit=crop&w=600&q=80",
+          "desc": "Trek down 3,500 stone stairs through rainforest to witness two-tier living root bridges spanning river rapids."
+        },
+        {
+          "name": "Dawki & Umngot River",
+          "city": "Dawki",
+          "tag": "Floating on Air",
+          "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
+          "desc": "Emerald river water so crystalline that wooden canoes appear to float suspended in air."
+        },
+        {
+          "name": "Nohkalikai Falls",
+          "city": "Cherrapunji",
+          "tag": "Tallest Plunge Waterfall",
+          "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
+          "desc": "Stunning 340-meter single drop waterfall plunging into an electric green pool amid misty cliffs."
+        },
+        {
+          "name": "Mawlynnong Village",
+          "city": "East Khasi Hills",
+          "tag": "God's Own Garden",
+          "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80",
+          "desc": "Renowned as Asia's cleanest village, featuring immaculate floral lanes and treehouse lookouts."
+        }
       ],
       "travelTips": "Carry sturdy waterproof trekking shoes for Nongriat root bridges. Rain gear is essential throughout the year."
     },
@@ -260,15 +491,48 @@
         "Kanchipuram pure mulberry silk sarees handwoven with zari borders"
       ],
       "famousCuisine": [
-        { "name": "Chettinad Chicken Pepper Curry", "desc": "Deeply aromatic gravy flavored with star anise, stone flower (kalpasi), black peppercorns, and coconut." },
-        { "name": "Crispy Ghee Roast Dosa with Sambar", "desc": "Golden paper-thin fermented crepe cooked in pure ghee paired with drumstick sambar and coconut chutneys." },
-        { "name": "Filter Kaapi & Jigarthanda", "desc": "Frothy degree chicory filter coffee served in brass davarah alongside Madurai's famous cooling almond gum dessert." }
+        {
+          "name": "Chettinad Chicken Pepper Curry",
+          "desc": "Deeply aromatic gravy flavored with star anise, stone flower (kalpasi), black peppercorns, and coconut."
+        },
+        {
+          "name": "Crispy Ghee Roast Dosa with Sambar",
+          "desc": "Golden paper-thin fermented crepe cooked in pure ghee paired with drumstick sambar and coconut chutneys."
+        },
+        {
+          "name": "Filter Kaapi & Jigarthanda",
+          "desc": "Frothy degree chicory filter coffee served in brass davarah alongside Madurai's famous cooling almond gum dessert."
+        }
       ],
       "attractions": [
-        { "name": "Meenakshi Amman Temple", "city": "Madurai", "tag": "Dravidian Masterpiece", "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80", "desc": "Vast temple city with 14 soaring gopurams encrusted with thousands of painted mythological figures." },
-        { "name": "Shore Temple & Pancha Rathas", "city": "Mahabalipuram", "tag": "UNESCO Monoliths", "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=600&q=80", "desc": "7th-century coastal rock-cut temples standing resilient against the crashing Bay of Bengal waves." },
-        { "name": "Nilgiri Mountain Railway", "city": "Ooty", "tag": "Heritage Steam Train", "image": "https://images.unsplash.com/photo-1596401057633-54a8fe8ef647?auto=format&fit=crop&w=600&q=80", "desc": "Charming meter-gauge toy train winding through 208 curves, 16 tunnels, and fragrant eucalyptus slopes." },
-        { "name": "Dhanushkodi Ghost Town", "city": "Rameswaram", "tag": "Edge of India", "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80", "desc": "Spectacular sandspit where the Indian Ocean meets the Bay of Bengal, steeped in Ramayana lore." }
+        {
+          "name": "Meenakshi Amman Temple",
+          "city": "Madurai",
+          "tag": "Dravidian Masterpiece",
+          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+          "desc": "Vast temple city with 14 soaring gopurams encrusted with thousands of painted mythological figures."
+        },
+        {
+          "name": "Shore Temple & Pancha Rathas",
+          "city": "Mahabalipuram",
+          "tag": "UNESCO Monoliths",
+          "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=600&q=80",
+          "desc": "7th-century coastal rock-cut temples standing resilient against the crashing Bay of Bengal waves."
+        },
+        {
+          "name": "Nilgiri Mountain Railway",
+          "city": "Ooty",
+          "tag": "Heritage Steam Train",
+          "image": "https://images.unsplash.com/photo-1596401057633-54a8fe8ef647?auto=format&fit=crop&w=600&q=80",
+          "desc": "Charming meter-gauge toy train winding through 208 curves, 16 tunnels, and fragrant eucalyptus slopes."
+        },
+        {
+          "name": "Dhanushkodi Ghost Town",
+          "city": "Rameswaram",
+          "tag": "Edge of India",
+          "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
+          "desc": "Spectacular sandspit where the Indian Ocean meets the Bay of Bengal, steeped in Ramayana lore."
+        }
       ],
       "travelTips": "Dress code rules strictly mandate modest attire (no shorts or sleeveless tops) inside historic temples like Meenakshi Amman."
     },
@@ -286,7 +550,58 @@
       "bestMonths": "October to March",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 2100,
-      "description": "Home to the revered hill shrine of Tirumala Venkateswara, the breathtaking Araku Valley, Borra Caves, and the serene beaches of Visakhapatnam."
+      "description": "Home to the revered hill shrine of Tirumala Venkateswara, the breathtaking Araku Valley, Borra Caves, and the serene beaches of Visakhapatnam.",
+      "culturalHighlights": [
+        "Kalamkari hand-painted organic cotton textiles of Srikalahasti",
+        "Classical Kuchipudi dance originating in Krishna district",
+        "Lepakshi architectural wonder and hanging pillar",
+        "Kondapalli handcrafted soft-wood painted toys"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Pulihora & Gongura Pachadi",
+          "desc": "Tangy tamarind rice tempered with mustard, curry leaves, and crunchy peanuts served with fiery sorrel leaf pickle."
+        },
+        {
+          "name": "Andhra Royyala Vepudu",
+          "desc": "Crispy prawn fry tossed with shallots, crushed peppercorns, and freshly ground coastal spices."
+        },
+        {
+          "name": "Pootharekulu & Bobbatlu",
+          "desc": "Paper-thin rice starch sweet sheets layered with ghee and powdered jaggery, and lentil-stuffed sweet flatbreads."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Tirumala Venkateswara Temple",
+          "city": "Tirupati",
+          "tag": "Sacred Hill Shrine",
+          "image": "https://images.unsplash.com/photo-1600100397608-f010f443b350?auto=format&fit=crop&w=600&q=80",
+          "desc": "Opulent Dravidian gold-plated temple atop seven holy Seshachalam hills, welcoming millions of pilgrims."
+        },
+        {
+          "name": "Araku Valley & Borra Caves",
+          "city": "Visakhapatnam",
+          "tag": "Eastern Ghats Haven",
+          "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
+          "desc": "Million-year-old limestone stalactite caves surrounded by cloud-kissed organic coffee plantations."
+        },
+        {
+          "name": "Lepakshi Veerabhadra Temple",
+          "city": "Anantapur",
+          "tag": "Vijayanagara Wonder",
+          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+          "desc": "Exquisite 16th-century stone temple famous for its mysterious hanging pillar and colossal monolithic Nandi bull."
+        },
+        {
+          "name": "Rushikonda Beach & Submarine Museum",
+          "city": "Visakhapatnam",
+          "tag": "Coastal Jewel",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80",
+          "desc": "Golden sand beach with water sports and India's only decommissioned submarine museum (INS Kursura)."
+        }
+      ],
+      "travelTips": "Book Tirupati special entry darshan tickets online 2-3 months in advance. Sip freshly brewed Araku arabica coffee at tribal stalls."
     },
     {
       "id": "arunachal-pradesh",
@@ -302,7 +617,58 @@
       "bestMonths": "October to April",
       "peakSeason": "Autumn",
       "avgBudgetPerDay": 2500,
-      "description": "India's easternmost frontier where the sun first rises, featuring Tawang Monastery, Sela Pass, and the pristine wilderness of Namdapha National Park."
+      "description": "India's easternmost frontier where the sun first rises, featuring Tawang Monastery, Sela Pass, and the pristine wilderness of Namdapha National Park.",
+      "culturalHighlights": [
+        "Tawang Monastery - India's largest and world's second-largest Buddhist monastery",
+        "Monpa tribal wood carving and colorful Thangka tapestry weaving",
+        "Ziro Valley Apatani tribal sustainable agriculture and tattoo heritage",
+        "Losar and Torgya Tibetan Buddhist monastic masked dance festivals"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Thukpa & Hand-Folded Momos",
+          "desc": "Comforting noodle soup with mountain herbs, ginger broth, and steamed dumplings with fiery chili dip."
+        },
+        {
+          "name": "Bamboo Shoot Pika Pila",
+          "desc": "Traditional aromatic condiment prepared from fermented bamboo shoots, king chilies, and pork fat."
+        },
+        {
+          "name": "Lukter",
+          "desc": "Roasted dried meat tossed with flakes of fiery Bhut Jolokia (ghost pepper) and wild herbs."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Tawang Monastery & Sela Pass",
+          "city": "Tawang",
+          "tag": "Crown of Arunachal",
+          "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=600&q=80",
+          "desc": "400-year-old Gelugpa monastery at 10,000 ft overlooking deep Himalayan valleys near frozen Sela Lake."
+        },
+        {
+          "name": "Ziro Valley",
+          "city": "Lower Subansiri",
+          "tag": "UNESCO Cultural Landscape",
+          "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
+          "desc": "Emerald pine groves, terraced fish-paddy agro systems, and serene Apatani tribal hamlets."
+        },
+        {
+          "name": "Namdapha National Park",
+          "city": "Changlang",
+          "tag": "Biodiversity Hotspot",
+          "image": "https://images.unsplash.com/photo-1511497584788-87676104235f?auto=format&fit=crop&w=600&q=80",
+          "desc": "Dense sub-tropical rainforest harboring tigers, leopards, snow leopards, and clouded leopards."
+        },
+        {
+          "name": "Madhuri Lake (Shonga-tser)",
+          "city": "Tawang",
+          "tag": "Glacial Wonder",
+          "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80",
+          "desc": "Surreal earthquake-formed lake where dead tree trunks rise out of crystalline turquoise waters."
+        }
+      ],
+      "travelTips": "Inner Line Permit (ILP) is mandatory for domestic travelers; Protected Area Permit (PAP) for international visitors. Carry sturdy mountain gear."
     },
     {
       "id": "assam",
@@ -318,7 +684,58 @@
       "bestMonths": "November to April",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 2200,
-      "description": "Famed for Kaziranga and Manas national parks, the mighty Brahmaputra river, Majuli river island, and golden Muga silk."
+      "description": "Famed for Kaziranga and Manas national parks, the mighty Brahmaputra river, Majuli river island, and golden Muga silk.",
+      "culturalHighlights": [
+        "Kaziranga - home to two-thirds of the world's great one-horned rhinoceroses",
+        "Rongali Bihu harvest festival celebrated with energetic dhol beats and pepa horn",
+        "Muga silk (golden silk) weaving exclusive to the craft village of Sualkuchi",
+        "Majuli - world's largest inhabited river island with centuries-old Vaishnavite Satras"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Khaar",
+          "desc": "Traditional alkaline preparation made with raw papaya, pulses, and sun-dried banana peel ash."
+        },
+        {
+          "name": "Masor Tenga",
+          "desc": "Light and refreshing sour freshwater fish curry stewed with elephant apple or fresh vine tomatoes."
+        },
+        {
+          "name": "Pitha & Jolpan",
+          "desc": "Sticky rice cakes stuffed with grated coconut and liquid date-palm jaggery served with thick curd."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Kaziranga National Park",
+          "city": "Golaghat",
+          "tag": "UNESCO World Heritage",
+          "image": "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?auto=format&fit=crop&w=600&q=80",
+          "desc": "Elephant and open jeep safaris traversing tall elephant grass to spot great one-horned rhinos."
+        },
+        {
+          "name": "Majuli Island",
+          "city": "Brahmaputra River",
+          "tag": "World's Largest River Island",
+          "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
+          "desc": "Monastic Neo-Vaishnavite culture, traditional bamboo mask-making, and riverbank pottery."
+        },
+        {
+          "name": "Kamakhya Temple",
+          "city": "Guwahati",
+          "tag": "Sacred Shakti Peeth",
+          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+          "desc": "Ancient hilltop tantric shrine atop Nilachal Hill overlooking the mighty Brahmaputra river."
+        },
+        {
+          "name": "Heritage Tea Estates of Jorhat",
+          "city": "Jorhat",
+          "tag": "Tea Capital",
+          "image": "https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?auto=format&fit=crop&w=600&q=80",
+          "desc": "Colonial planter bungalows amidst velvet green tea estates offering tea tasting sessions."
+        }
+      ],
+      "travelTips": "Kaziranga safaris are operational from October to April. Take a Brahmaputra sunset river cruise in Guwahati."
     },
     {
       "id": "bihar",
@@ -334,7 +751,58 @@
       "bestMonths": "October to March",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 1800,
-      "description": "Where Gautama Buddha attained enlightenment beneath the Bodhi Tree in Bodh Gaya, and ancient scholars gathered at Nalanda."
+      "description": "Where Gautama Buddha attained enlightenment beneath the Bodhi Tree in Bodh Gaya, and ancient scholars gathered at Nalanda.",
+      "culturalHighlights": [
+        "Bodh Gaya - the sacred site where Gautama Buddha attained Enlightenment under the Bodhi Tree",
+        "Ancient Nalanda University - world's earliest residential international university",
+        "Madhubani folk painting tradition depicting mythological tales and nature motifs",
+        "Chhath Puja - ancient Vedic river sun-worship celebration"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Litti Chokha",
+          "desc": "Baked whole-wheat dough balls filled with spiced roasted gram flour (sattu), served with charred eggplant mash and desi ghee."
+        },
+        {
+          "name": "Sattu Sharbat",
+          "desc": "Nutritious and cooling roasted gram flour beverage flavored with cumin, mint, and black salt."
+        },
+        {
+          "name": "Khaja & Thekua",
+          "desc": "Multi-layered flaky pastry dipped in clear sugar syrup alongside festive whole-wheat jaggery cookies."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Mahabodhi Temple & Bodhi Tree",
+          "city": "Bodh Gaya",
+          "tag": "UNESCO World Heritage",
+          "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=80",
+          "desc": "50-meter pyramidical brick temple housing the sacred Diamond Throne where the Buddha meditated."
+        },
+        {
+          "name": "Ruins of Nalanda University",
+          "city": "Nalanda",
+          "tag": "Ancient Learning Hub",
+          "image": "https://images.unsplash.com/photo-1600100397608-f010f443b350?auto=format&fit=crop&w=600&q=80",
+          "desc": "Vast 5th-century CE red-brick ruins of lecture halls, meditation cells, and stupas."
+        },
+        {
+          "name": "Rajgir Ropeway & Peace Pagoda",
+          "city": "Rajgir",
+          "tag": "Vishwa Shanti Stupa",
+          "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80",
+          "desc": "Scenic aerial chairlift climbing Ratnagiri Hill to a gleaming white Japanese Peace Pagoda."
+        },
+        {
+          "name": "Barabar Caves",
+          "city": "Jehanabad",
+          "tag": "Mauryan Rock-Cut Architecture",
+          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+          "desc": "Oldest surviving rock-cut caves in India dating back to the Mauryan Empire (322-185 BCE) with mirror-polished granite interiors."
+        }
+      ],
+      "travelTips": "Winter (November to February) offers crisp, cool weather for exploring the Buddhist circuit. Hire licensed ASI guides at Nalanda."
     },
     {
       "id": "chhattisgarh",
@@ -350,7 +818,58 @@
       "bestMonths": "October to March",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 1900,
-      "description": "Dense sal forests, Chitrakote horseshoe falls on the Indravati river, and Bastar bell metal craft traditions."
+      "description": "Dense sal forests, Chitrakote horseshoe falls on the Indravati river, and Bastar bell metal craft traditions.",
+      "culturalHighlights": [
+        "Bastar tribal bell-metal craft (Dhokra) and terracotta votive sculptures",
+        "Chitrakote Falls - celebrated as the 'Niagara of India' on the Indravati River",
+        "Bastar Dussehra - unique 75-day festival worshipping Goddess Danteshwari",
+        "Kanger Valley underground limestone caves and natural stalagmites"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Chila & Farra",
+          "desc": "Steamed rice flour rolls tempered with green chilies, sesame seeds, and mustard seeds."
+        },
+        {
+          "name": "Bafauri",
+          "desc": "Nutritious steamed chana dal dumplings infused with minced garlic and coriander leaves."
+        },
+        {
+          "name": "Dubki Kadhi",
+          "desc": "Tender moong dal dumplings simmered in tangy spiced yogurt curry."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Chitrakote Falls",
+          "city": "Bastar",
+          "tag": "Niagara of India",
+          "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
+          "desc": "Massive horseshoe waterfall plunging nearly 100 feet amidst lush Sal and Teak forests."
+        },
+        {
+          "name": "Kanger Valley & Kutumsar Cave",
+          "city": "Jagdalpur",
+          "tag": "Limestone Caverns",
+          "image": "https://images.unsplash.com/photo-1511497584788-87676104235f?auto=format&fit=crop&w=600&q=80",
+          "desc": "Subterranean limestone cavern with stalagmites, stalactites, and blind cave-dwelling fish."
+        },
+        {
+          "name": "Sirpur Monuments",
+          "city": "Mahasamund",
+          "tag": "Ancient Brick Architecture",
+          "image": "https://images.unsplash.com/photo-1600100397608-f010f443b350?auto=format&fit=crop&w=600&q=80",
+          "desc": "7th-century brick-built Laxman Temple and ancient Buddhist viharas."
+        },
+        {
+          "name": "Tirathgarh Waterfalls",
+          "city": "Bastar",
+          "tag": "Tiered Cascade",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80",
+          "desc": "White foaming multi-tier waterfall cascading over split rock boulders."
+        }
+      ],
+      "travelTips": "Engage a registered tribal guide in Jagdalpur for authentic village visits and weekly haats (tribal bazaars)."
     },
     {
       "id": "gujarat",
@@ -366,7 +885,58 @@
       "bestMonths": "November to February",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 2300,
-      "description": "Vast white salt desert illuminated under the full moon during Rann Utsav, Gir National Park lions, and Mahatma Gandhi's Sabarmati Ashram."
+      "description": "Vast white salt desert illuminated under the full moon during Rann Utsav, Gir National Park lions, and Mahatma Gandhi's Sabarmati Ashram.",
+      "culturalHighlights": [
+        "Great Rann of Kutch white salt desert and vibrant Rann Utsav carnival",
+        "Statue of Unity - world's tallest monument standing 182 meters tall",
+        "Gir National Park - sole surviving natural haven of Asiatic Lions",
+        "Double-ikat Patola silk weaving, Rogan painting, and Bandhani tie-dye"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Gujarati Thali",
+          "desc": "Lavish vegetarian platter featuring sweet-and-sour Gujarati dal, ringna no oro, rotla, kadi, and farsan."
+        },
+        {
+          "name": "Dhokla & Khandvi",
+          "desc": "Spongy steamed fermented gram flour cakes and delicate tightly rolled seasoned chickpea sheets."
+        },
+        {
+          "name": "Dabeli & Fafda Jalebi",
+          "desc": "Spicy potato buns stuffed with pomegranate seeds and peanuts, paired with crisp gram-flour strips and sweet jalebis."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "White Rann of Kutch",
+          "city": "Kutch",
+          "tag": "Endless Salt Desert",
+          "image": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=600&q=80",
+          "desc": "Vast expanse of white salt desert glistening under moonlight during the annual Rann Utsav."
+        },
+        {
+          "name": "Statue of Unity",
+          "city": "Kevadia",
+          "tag": "World's Tallest Statue",
+          "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=600&q=80",
+          "desc": "182-meter monumental tribute to Sardar Vallabhbhai Patel with high-speed viewing gallery overlooking Narmada dam."
+        },
+        {
+          "name": "Gir National Park",
+          "city": "Sasan Gir",
+          "tag": "Asiatic Lion Sanctuary",
+          "image": "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?auto=format&fit=crop&w=600&q=80",
+          "desc": "Rugged deciduous teak forests offering jeep safaris to witness wild Asiatic lions in their native territory."
+        },
+        {
+          "name": "Somnath & Dwarkadhish Temples",
+          "city": "Saurashtra Coast",
+          "tag": "Ancient Shore Temples",
+          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+          "desc": "First of the 12 holy Shiva Jyotirlingas directly on the Arabian Sea shore, alongside Lord Krishna's sacred capital."
+        }
+      ],
+      "travelTips": "Book Gir safari permits 60 days ahead online. Full moon nights during Rann Utsav (November-February) offer unforgettable desert views."
     },
     {
       "id": "haryana",
@@ -382,7 +952,58 @@
       "bestMonths": "October to March",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 2000,
-      "description": "Historic sites of the Mahabharata, Sultanpur bird sanctuary, and the vibrant Surajkund International Crafts Mela."
+      "description": "Historic sites of the Mahabharata, Sultanpur bird sanctuary, and the vibrant Surajkund International Crafts Mela.",
+      "culturalHighlights": [
+        "Kurukshetra - sacred battlefield of the Mahabharata and birthplace of the Bhagavad Gita",
+        "Surajkund International Crafts Mela showcasing rural master craftsmen",
+        "Pinjore Mughal Gardens (Yadavindra Gardens) terraced fountains",
+        "Vibrant rural agrarian heritage, folk Raginis, and traditional Akhadas"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Bajra Khichdi with Makkhan",
+          "desc": "Slow-cooked pearl millet and moong dal porridge generously crowned with homemade white butter."
+        },
+        {
+          "name": "Hara Dhania Choliya",
+          "desc": "Tender green chickpeas simmered in aromatic fresh coriander, onion, and tomato curry."
+        },
+        {
+          "name": "Singri Ki Sabzi & Malpua",
+          "desc": "Sun-dried desert bean curry accompanied by warm, cardamom-infused sweet pancakes."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Brahma Sarovar & Jyotisar",
+          "city": "Kurukshetra",
+          "tag": "Gita Birthplace",
+          "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=80",
+          "desc": "Colossal sacred water body and the holy banyan tree marking where Lord Krishna delivered the Bhagavad Gita."
+        },
+        {
+          "name": "Yadavindra Gardens (Pinjore)",
+          "city": "Pinjore",
+          "tag": "17th-Century Mughal Terrace",
+          "image": "https://images.unsplash.com/photo-1600100397608-f010f443b350?auto=format&fit=crop&w=600&q=80",
+          "desc": "Seven-tiered Mughal terraced pleasure garden with illuminated fountains and Shish Mahal pavilion."
+        },
+        {
+          "name": "Sultanpur National Park",
+          "city": "Gurugram",
+          "tag": "Migratory Bird Sanctuary",
+          "image": "https://images.unsplash.com/photo-1511497584788-87676104235f?auto=format&fit=crop&w=600&q=80",
+          "desc": "Lush wetland hosting over 250 species of resident and winter migratory birds including Siberian cranes."
+        },
+        {
+          "name": "Surajkund Ancient Amphitheatre",
+          "city": "Faridabad",
+          "tag": "10th-Century Sun Reservoir",
+          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+          "desc": "Semicircular stepped stone amphitheater and water reservoir host to the world's largest crafts mela in February."
+        }
+      ],
+      "travelTips": "Visit Surajkund in February to witness artists and performers from over 20 nations and every Indian state."
     },
     {
       "id": "jharkhand",
@@ -398,7 +1019,58 @@
       "bestMonths": "October to March",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 1800,
-      "description": "Famous for scenic waterfalls like Hundru and Dassam, Parasnath Jain temples, and lush tribal homelands."
+      "description": "Famous for scenic waterfalls like Hundru and Dassam, Parasnath Jain temples, and lush tribal homelands.",
+      "culturalHighlights": [
+        "Betla National Park & Palamu Fort ruins amidst dense sal jungles",
+        "Sohrai and Khovar indigenous tribal mural and wall art traditions",
+        "Baidyanath Dham at Deoghar - one of the 12 sacred Shiva Jyotirlingas",
+        "Hundru, Dassam and Jonha rocky waterfalls"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Dhuska with Ghugni",
+          "desc": "Deep-fried fluffy spiced rice and chana dal bread served with fiery black chickpea and potato curry."
+        },
+        {
+          "name": "Rugra & Pittha",
+          "desc": "Rare wild tribal forest mushrooms cooked with mustard oil and spices, served with steamed rice dumplings."
+        },
+        {
+          "name": "Arsa Roti",
+          "desc": "Traditional sweet pancake prepared from soaked rice flour and jaggery, fried with sesame seeds."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Baidyanath Dham",
+          "city": "Deoghar",
+          "tag": "Sacred Jyotirlinga",
+          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+          "desc": "Ancient temple complex where millions of devotees carry holy Ganga water during the Shravan Mela."
+        },
+        {
+          "name": "Hundru & Dassam Falls",
+          "city": "Ranchi",
+          "tag": "Subarnarekha Cascades",
+          "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
+          "desc": "Cascading 320-foot waterfall dropping over crystalline rocks surrounded by lush deciduous forests."
+        },
+        {
+          "name": "Betla National Park",
+          "city": "Latehar",
+          "tag": "Forest & Historic Forts",
+          "image": "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?auto=format&fit=crop&w=600&q=80",
+          "desc": "Sal forests harboring elephants, tigers, and the historic 16th-century stone forts of the Chero kings."
+        },
+        {
+          "name": "Parasnath Hill (Shikharji)",
+          "city": "Giridih",
+          "tag": "Highest Peak in Jharkhand",
+          "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80",
+          "desc": "4,480 ft high holy pilgrimage mountain where 20 of the 24 Jain Tirthankaras attained Nirvana."
+        }
+      ],
+      "travelTips": "October to March is the best window for exploring waterfalls around Ranchi. Purchase authentic Sohrai tribal paintings directly from artisans in Hazaribagh."
     },
     {
       "id": "karnataka",
@@ -414,7 +1086,58 @@
       "bestMonths": "October to March",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 2400,
-      "description": "UNESCO Vijayanagara ruins at Hampi, illuminated Mysore Palace during Dasara, coffee mist in Coorg, and Gokarna beaches."
+      "description": "UNESCO Vijayanagara ruins at Hampi, illuminated Mysore Palace during Dasara, coffee mist in Coorg, and Gokarna beaches.",
+      "culturalHighlights": [
+        "Hampi - UNESCO World Heritage ruins of the glorious 14th-century Vijayanagara Empire",
+        "Mysore Palace illuminated with 100,000 bulbs during Dasara festivities",
+        "Coorg (Kodagu) misty coffee plantations, cardamom hills, and Kodava culture",
+        "Classical Yakshagana folk dance-theatre and Carnatic musical tradition"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Bisi Bele Bath & Mysore Masala Dosa",
+          "desc": "Hearty rice, lentil, and vegetable stew, paired with crisp golden dosa smeared with red chili-garlic paste."
+        },
+        {
+          "name": "Coorg Pandi Curry",
+          "desc": "Succulent pork cooked in wild black vinegar (kachampuli) and freshly roasted peppercorns."
+        },
+        {
+          "name": "Mysore Pak & Filter Kaapi",
+          "desc": "Melt-in-mouth gram flour and ghee sweet accompanied by authentic frothy chicory filter coffee."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Hampi Monumental Ruins",
+          "city": "Vijayanagara",
+          "tag": "UNESCO World Heritage",
+          "image": "https://images.unsplash.com/photo-1600100397608-f010f443b350?auto=format&fit=crop&w=600&q=80",
+          "desc": "Boulder-strewn surreal landscape housing the Stone Chariot, musical pillars of Vittala Temple, and Virupaksha."
+        },
+        {
+          "name": "Mysore Palace & Chamundi Hill",
+          "city": "Mysuru",
+          "tag": "Indo-Saracenic Royal Wonder",
+          "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=600&q=80",
+          "desc": "Grand royal palace of the Wadiyars with stained glass ceilings, jewel-encrusted golden thrones, and illuminated courtyards."
+        },
+        {
+          "name": "Coorg Coffee Plantations & Abbey Falls",
+          "city": "Madikeri",
+          "tag": "Scotland of India",
+          "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
+          "desc": "Misty highlands covered in coffee estates, spice trails, and roaring cascades."
+        },
+        {
+          "name": "Badami Caves & Pattadakal",
+          "city": "Bagalkot",
+          "tag": "Chalukyan Rock-Cut Shrines",
+          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+          "desc": "6th-century red sandstone rock-cut shrines overlooking the tranquil waters of Agastya Lake."
+        }
+      ],
+      "travelTips": "Explore Hampi on rented bicycles or e-scooters in the early morning. Mysore Dasara in autumn features royal elephant processions."
     },
     {
       "id": "madhya-pradesh",
@@ -430,7 +1153,58 @@
       "bestMonths": "October to April",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 2200,
-      "description": "Bandhavgarh and Kanha tiger safaris, Khajuraho erotic temples, Sanchi Buddhist stupa, and Gwalior fort."
+      "description": "Bandhavgarh and Kanha tiger safaris, Khajuraho erotic temples, Sanchi Buddhist stupa, and Gwalior fort.",
+      "culturalHighlights": [
+        "Khajuraho temples with world-renowned UNESCO stone sculptures",
+        "Tiger Capital of India - Bandhavgarh, Kanha, Pench, and Panna national parks",
+        "Sanchi Stupa - oldest stone monument in India commissioned by Emperor Ashoka",
+        "Gwalior Fort and Ujjain Mahakaleshwar Jyotirlinga on the Shipra River"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Poha Jalebi & Bhutte Ka Kees",
+          "desc": "Light flattened rice garnished with sev and pomegranate, paired with hot jalebis and spiced grated corn."
+        },
+        {
+          "name": "Dal Bafla",
+          "desc": "Boiled and baked dough balls soaked in desi ghee, served with spicy tuar dal and raw mango chutney."
+        },
+        {
+          "name": "Bhopali Gosht Korma",
+          "desc": "Slow-cooked Nawabi mutton curry simmered with whole spices, yogurt, and aromatic rose water."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Khajuraho Group of Monuments",
+          "city": "Chhatarpur",
+          "tag": "UNESCO World Heritage",
+          "image": "https://images.unsplash.com/photo-1600100397608-f010f443b350?auto=format&fit=crop&w=600&q=80",
+          "desc": "Masterpieces of medieval temple architecture with intricate stone carvings celebrating human vitality."
+        },
+        {
+          "name": "Bandhavgarh & Kanha National Parks",
+          "city": "Umaria / Mandla",
+          "tag": "Tiger Sanctuaries",
+          "image": "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?auto=format&fit=crop&w=600&q=80",
+          "desc": "Dense Sal forests that inspired Rudyard Kipling's The Jungle Book, home to the highest density of Royal Bengal Tigers."
+        },
+        {
+          "name": "Great Stupa at Sanchi",
+          "city": "Raisen",
+          "tag": "Emperor Ashoka's Heritage",
+          "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=80",
+          "desc": "3rd-century BCE hemispherical stone dome with four intricately carved ornamental Torana gateways."
+        },
+        {
+          "name": "Gwalior Fort & Man Mandir",
+          "city": "Gwalior",
+          "tag": "The Pearl of Fortresses",
+          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+          "desc": "Perched 300 feet on an isolated sandstone hill with vibrant blue ceramic tiles and majestic palatial courtyards."
+        }
+      ],
+      "travelTips": "Book national park safaris 90-120 days in advance via the MP Forest portal. Attend the Khajuraho Dance Festival in February."
     },
     {
       "id": "maharashtra",
@@ -446,7 +1220,58 @@
       "bestMonths": "October to March",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 2600,
-      "description": "Mumbai's colonial Art Deco and Bollywood glamour, rock-cut Ajanta and Ellora caves, and misty monsoon Western Ghats."
+      "description": "Mumbai's colonial Art Deco and Bollywood glamour, rock-cut Ajanta and Ellora caves, and misty monsoon Western Ghats.",
+      "culturalHighlights": [
+        "Ajanta & Ellora Caves - magnificent rock-cut Buddhist, Hindu, and Jain cave temples",
+        "Chhatrapati Shivaji Maharaj sea forts and Sahyadri mountain citadels",
+        "Ganesh Chaturthi - grand community festival with energetic dhol-tasha processions",
+        "Lavani classical folk dance and handwoven Paithani silk sarees"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Vada Pav & Pav Bhaji",
+          "desc": "Mumbai's beloved street snack of spiced potato fritter in buttered bread, alongside mashed vegetable curry with hot pav."
+        },
+        {
+          "name": "Misal Pav",
+          "desc": "Fiery sprouted moth bean curry garnished with farsan, chopped onions, and lemon wedges."
+        },
+        {
+          "name": "Puran Poli & Pithla Bhakri",
+          "desc": "Cardamom and jaggery-infused sweet flatbreads, and rustic spiced gram-flour curry with hot jowar flatbread."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Gateway of India & Marine Drive",
+          "city": "Mumbai",
+          "tag": "The Maximum City",
+          "image": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=600&q=80",
+          "desc": "Iconic basalt arch on the Arabian Sea waterfront and Queen's Necklace promenade glowing at sunset."
+        },
+        {
+          "name": "Ajanta & Ellora Caves",
+          "city": "Chhatrapati Sambhajinagar",
+          "tag": "UNESCO Rock-Cut Wonders",
+          "image": "https://images.unsplash.com/photo-1600100397608-f010f443b350?auto=format&fit=crop&w=600&q=80",
+          "desc": "Kailasa Temple - world's largest monolithic rock-cut structure carved top-down from a single cliff face."
+        },
+        {
+          "name": "Lonavala, Khandala & Mahabaleshwar",
+          "city": "Western Ghats",
+          "tag": "Sahyadri Hill Stations",
+          "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
+          "desc": "Misty mountain peaks, deep green gorges, monsoon waterfalls, and fresh strawberry orchards."
+        },
+        {
+          "name": "Shirdi Sai Baba Temple",
+          "city": "Shirdi",
+          "tag": "Universal Pilgrim Shrine",
+          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+          "desc": "Spiritual sanctuary welcoming millions of devotees of all faiths from around the world."
+        }
+      ],
+      "travelTips": "Mumbai's local trains have intense rush hours (8-11am & 5-8pm); opt for Metro or taxis then. Visit Western Ghats during monsoon (July-September) for vibrant waterfalls."
     },
     {
       "id": "manipur",
@@ -462,7 +1287,58 @@
       "bestMonths": "October to April",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 2200,
-      "description": "World's only floating national park on Loktak Lake, Kangla Fort, and graceful classical Manipuri Raas Leela dance."
+      "description": "World's only floating national park on Loktak Lake, Kangla Fort, and graceful classical Manipuri Raas Leela dance.",
+      "culturalHighlights": [
+        "Loktak Lake - world's only floating lake with circular natural biomass islands (phumdis)",
+        "Classical Manipuri Raas Leela dance with graceful bell-shaped Kumil skirts",
+        "Ima Keithel (Mother's Market) - world's largest 500-year-old all-women operated bazaar",
+        "Sangai deer - the endangered dancing brow-antlered deer found only in Manipur"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Kangshoi",
+          "desc": "Nutritious seasonal vegetable stew simmered with fermented fish (ngari), ginger, and fresh green chilies."
+        },
+        {
+          "name": "Singju",
+          "desc": "Fiery spicy cabbage and seasonal greens salad tossed with roasted sesame, perilla seeds, and chili paste."
+        },
+        {
+          "name": "Chak-hao Kheer",
+          "desc": "Delicate royal purple pudding made with aromatic indigenous black rice, rich milk, and dry fruits."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Loktak Lake & Keibul Lamjao",
+          "city": "Bishnupur",
+          "tag": "Floating National Park",
+          "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
+          "desc": "World's only floating wildlife sanctuary where the endangered Sangai deer dances on floating vegetation."
+        },
+        {
+          "name": "Ima Keithel (Mother's Market)",
+          "city": "Imphal",
+          "tag": "500-Year Women's Market",
+          "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=80",
+          "desc": "Historic marketplace entirely managed by over 5,000 women selling handlooms, produce, and traditional brassware."
+        },
+        {
+          "name": "Kangla Fort",
+          "city": "Imphal",
+          "tag": "Ancient Royal Seat",
+          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+          "desc": "Historic citadel of the Meitei kingdom with sacred ponds, royal shrines, and dragon statues (Kangla Sha)."
+        },
+        {
+          "name": "Dzukou Valley Trailhead",
+          "city": "Senapati Border",
+          "tag": "Valley of Celestial Flowers",
+          "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80",
+          "desc": "Dramatic undulating green hills, crystal-clear streams, and rare seasonal Dzukou lilies."
+        }
+      ],
+      "travelTips": "Visit in late November for the vibrant Manipur Sangai Festival celebrating local art, handloom, and polo."
     },
     {
       "id": "mizoram",
@@ -478,7 +1354,58 @@
       "bestMonths": "October to March",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 2100,
-      "description": "Known as the Land of Blue Mountains (Phawngpui), featuring bamboo dance festivals and hilltop church architecture."
+      "description": "Known as the Land of Blue Mountains (Phawngpui), featuring bamboo dance festivals and hilltop church architecture.",
+      "culturalHighlights": [
+        "Cheraw (Bamboo Dance) performed with rapid rhythmic clicking bamboo poles",
+        "Chapchar Kut - joyous spring harvest festival celebrated with folk songs and feasts",
+        "Phawngpui (Blue Mountain) - sacred peak rich in orchids and rhododendrons",
+        "Reiek Tlang scenic cliff ridge and preserved traditional Mizo village"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Bai",
+          "desc": "Nutritious boiled vegetable or pork stew prepared with bamboo shoots, mustard leaves, and local soda."
+        },
+        {
+          "name": "Vawksa Rep",
+          "desc": "Fragrant smoked pork stir-fried with mustard greens, garlic, and fiery bird's eye chilies."
+        },
+        {
+          "name": "Sanpiau",
+          "desc": "Comforting rice porridge topped with crushed black pepper, fresh coriander, and crispy pork cracklings."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Phawngpui (Blue Mountain)",
+          "city": "Lawngtlai",
+          "tag": "Highest Peak in Mizoram",
+          "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80",
+          "desc": "7,000 ft high mountain peak offering views of Myanmar, bamboo groves, and endangered clouded leopards."
+        },
+        {
+          "name": "Reiek Peak & Heritage Village",
+          "city": "Mamit",
+          "tag": "Spectacular Ridge Walk",
+          "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
+          "desc": "Sheer rock precipice with views stretching to the plains of Bangladesh, beside a preserved Mizo model village."
+        },
+        {
+          "name": "Vantawng Falls",
+          "city": "Serchhip",
+          "tag": "Highest Waterfall in Mizoram",
+          "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
+          "desc": "Two-tiered 750-foot waterfall cascading through dense bamboo and teak forests."
+        },
+        {
+          "name": "Solomon's Temple",
+          "city": "Aizawl",
+          "tag": "Architectural Landmark",
+          "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=80",
+          "desc": "Gleaming white marble cathedral set amidst manicured pine gardens on the outskirts of Aizawl."
+        }
+      ],
+      "travelTips": "Domestic visitors require an Inner Line Permit (ILP), obtainable at Lengpui Airport or online. Sundays are observed as quiet sabbath days across towns."
     },
     {
       "id": "nagaland",
@@ -494,7 +1421,58 @@
       "bestMonths": "October to May",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 2400,
-      "description": "Famous for the Hornbill Festival celebrating 16 indigenous tribes, Dzukou Valley bamboo treks, and scenic Naga hills."
+      "description": "Famous for the Hornbill Festival celebrating 16 indigenous tribes, Dzukou Valley bamboo treks, and scenic Naga hills.",
+      "culturalHighlights": [
+        "Hornbill Festival - the celebrated 'Festival of Festivals' held at Kisama Heritage Village",
+        "16 distinct indigenous tribes each with unique colorful woven shawls and warrior folklore",
+        "Dzukou Valley trek between Nagaland and Manipur",
+        "Khonoma - Asia's first certified community-led green conservation village"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Smoked Pork with Axone (Akhuni)",
+          "desc": "Tender wood-smoked pork cooked with fermented soybean paste and fiery Raja Mircha chilies."
+        },
+        {
+          "name": "Anishi Pork Curry",
+          "desc": "Rich pork curry prepared with fermented and smoke-dried taro yam patties."
+        },
+        {
+          "name": "Galho",
+          "desc": "Wholesome Naga khichdi made of local rice, tender vegetables, fresh bamboo shoots, and smoked meat."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Kisama Heritage Village",
+          "city": "Kohima",
+          "tag": "Hornbill Festival Arena",
+          "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=80",
+          "desc": "Permanent tribal cultural village featuring traditional Morungs (dormitories), ceremonial log drums, and totems."
+        },
+        {
+          "name": "Dzukou Valley",
+          "city": "Kohima / Japfu",
+          "tag": "Trekker's Paradise",
+          "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80",
+          "desc": "Rolling emerald green dwarf-bamboo hills dissected by crystal meandering streams at 8,000 ft."
+        },
+        {
+          "name": "Khonoma Green Village",
+          "city": "Kohima",
+          "tag": "Asia's First Green Village",
+          "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
+          "desc": "700-year-old Angami village renowned for community ban on logging and hillside terraced farming."
+        },
+        {
+          "name": "Kohima War Cemetery",
+          "city": "Kohima",
+          "tag": "WWII Historic Memorial",
+          "image": "https://images.unsplash.com/photo-1511497584788-87676104235f?auto=format&fit=crop&w=600&q=80",
+          "desc": "Immaculately maintained memorial on Garrison Hill overlooking the famous Battle of the Tennis Court."
+        }
+      ],
+      "travelTips": "Book Kohima stays 4-6 months in advance for the Hornbill Festival (December 1-10). Inner Line Permit (ILP) required."
     },
     {
       "id": "odisha",
@@ -510,7 +1488,58 @@
       "bestMonths": "October to March",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 2000,
-      "description": "Chariot architecture at Konark Sun Temple, sacred Rath Yatra in Puri, and dolphin boat cruises in Asia's largest brackish lagoon Chilika."
+      "description": "Chariot architecture at Konark Sun Temple, sacred Rath Yatra in Puri, and dolphin boat cruises in Asia's largest brackish lagoon Chilika.",
+      "culturalHighlights": [
+        "Konark Sun Temple - 13th-century stone chariot masterpiece and UNESCO World Heritage site",
+        "Jagannath Temple Puri and the grand annual Rath Yatra (Chariot Festival)",
+        "Odissi classical dance and intricate Pattachitra palm-leaf paintings of Raghurajpur",
+        "Chilika Lake - Asia's largest brackish lagoon with playful Irrawaddy dolphins"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Dalma & Pakhala Bhata",
+          "desc": "Nutritious lentil stew with raw papaya, pumpkin, and roasted spices, alongside fermented cooling curd rice."
+        },
+        {
+          "name": "Chhena Poda",
+          "desc": "Odisha's signature caramelized roasted cottage cheese dessert with cardamom and crunchy cashew crust."
+        },
+        {
+          "name": "Crab Kassa & Machha Besara",
+          "desc": "Fiery spicy mud crab masala and freshwater fish cooked in pungent yellow mustard paste."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Konark Sun Temple",
+          "city": "Puri",
+          "tag": "UNESCO World Heritage",
+          "image": "https://images.unsplash.com/photo-1600100397608-f010f443b350?auto=format&fit=crop&w=600&q=80",
+          "desc": "Gigantic stone chariot with 24 carved sundial wheels pulled by 7 stone horses, aligned to the sunrise."
+        },
+        {
+          "name": "Jagannath Temple & Golden Beach",
+          "city": "Puri",
+          "tag": "Char Dham Sacred Shrine",
+          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+          "desc": "12th-century holy shrine hosting the world-famous Chariot Festival, beside a pristine Blue Flag beach."
+        },
+        {
+          "name": "Chilika Lake & Satapada",
+          "city": "Puri / Ganjam",
+          "tag": "Dolphin Lagoon",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80",
+          "desc": "Vast wetland lagoon hosting migratory Siberian birds and boat safaris to spot endangered Irrawaddy dolphins."
+        },
+        {
+          "name": "Udayagiri & Khandagiri Caves",
+          "city": "Bhubaneswar",
+          "tag": "Jain Rock-Cut Hermitages",
+          "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=80",
+          "desc": "2nd-century BCE rock-cut monastic caves carved under King Kharavela featuring the famous Hathigumpha inscription."
+        }
+      ],
+      "travelTips": "Visit the artisan village of Raghurajpur near Puri to watch Pattachitra painters at work. Taste warm Chhena Poda directly from local confectioners."
     },
     {
       "id": "punjab",
@@ -526,7 +1555,58 @@
       "bestMonths": "October to March",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 2100,
-      "description": "The radiant Golden Temple (Sri Harmandir Sahib) serving free langar to 100,000 pilgrims daily, Wagah Border retreat ceremony, and yellow mustard fields."
+      "description": "The radiant Golden Temple (Sri Harmandir Sahib) serving free langar to 100,000 pilgrims daily, Wagah Border retreat ceremony, and yellow mustard fields.",
+      "culturalHighlights": [
+        "Sri Harmandir Sahib (Golden Temple) in Amritsar feeding over 100,000 pilgrims daily in free Langar",
+        "Wagah Border Beating Retreat ceremony between India and Pakistan",
+        "High-energy Bhangra and Giddha folk dance accompanied by the dhol drum",
+        "Phulkari floral geometric embroidery and handcrafted Punjabi Juttis"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Makki di Roti & Sarson da Saag",
+          "desc": "Slow-cooked winter mustard greens topped with rich white butter, served with hot cornmeal flatbread and jaggery."
+        },
+        {
+          "name": "Amritsari Kulcha with Chole",
+          "desc": "Flaky, crisp tandoor-baked flatbread stuffed with spiced potatoes and onions, served with tangy chickpea curry."
+        },
+        {
+          "name": "Punjabi Lassi & Butter Chicken",
+          "desc": "Thick sweet churned yogurt topped with clotted cream (malai), and tandoori chicken simmered in rich buttery tomato sauce."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Golden Temple (Sri Harmandir Sahib)",
+          "city": "Amritsar",
+          "tag": "Spiritual Sanctum of Peace",
+          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+          "desc": "Gleaming gold-leaf sanctum surrounded by the sacred Amrit Sarovar pool, open 24/7 to all humankind."
+        },
+        {
+          "name": "Wagah Border",
+          "city": "Amritsar",
+          "tag": "Patriotic Flag Ceremony",
+          "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=80",
+          "desc": "High-octane evening military flag-lowering drill with synchronized goose-stepping guards and patriotic crowds."
+        },
+        {
+          "name": "Jallianwala Bagh Memorial",
+          "city": "Amritsar",
+          "tag": "Freedom Struggle Shrine",
+          "image": "https://images.unsplash.com/photo-1600100397608-f010f443b350?auto=format&fit=crop&w=600&q=80",
+          "desc": "Historic memorial preserving the Martyr's Well and bullet marks honoring the 1919 freedom fighters."
+        },
+        {
+          "name": "Virasat-e-Khalsa",
+          "city": "Anandpur Sahib",
+          "tag": "World-Class Heritage Museum",
+          "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=600&q=80",
+          "desc": "Architectural masterpiece designed by Moshe Safdie tracing 500 years of Sikh history and philosophy."
+        }
+      ],
+      "travelTips": "Cover your head and remove footwear before entering any Gurudwara. Participate in the Langar (community kitchen) volunteer seva."
     },
     {
       "id": "sikkim",
@@ -542,7 +1622,58 @@
       "bestMonths": "March to May & Oct to Dec",
       "peakSeason": "Summer",
       "avgBudgetPerDay": 2600,
-      "description": "India's first fully organic state beneath the third-highest mountain Kangchenjunga, featuring Nathu La pass and Gurudongmar Lake."
+      "description": "India's first fully organic state beneath the third-highest mountain Kangchenjunga, featuring Nathu La pass and Gurudongmar Lake.",
+      "culturalHighlights": [
+        "Kangchenjunga - world's 3rd highest peak revered as a sacred guardian deity",
+        "Rumtek and Pemayangtse ancient Tibetan Buddhist monasteries",
+        "India's first 100% certified organic agricultural state promoting clean eco-tourism",
+        "Tsomgo Lake and Nathu La mountain pass on the historic Old Silk Route"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Authentic Steamed Momos & Thukpa",
+          "desc": "Thin-skinned dumplings packed with mountain vegetables or meat, accompanied by spicy Dalle Khursani chili sauce."
+        },
+        {
+          "name": "Gundruk & Sinki Soup",
+          "desc": "Traditional fermented leafy mustard and radish taproot broth with ginger and garlic."
+        },
+        {
+          "name": "Sel Roti & Chhurpi Stew",
+          "desc": "Ring-shaped crispy sweet rice bread served with traditional hardened yak cheese soup."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Tsomgo Lake & Nathu La Pass",
+          "city": "East Sikkim",
+          "tag": "Glacial High-Altitude Pass",
+          "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=600&q=80",
+          "desc": "Glacial lake at 12,310 ft changing colors with seasons, and the historic Indo-China Silk Route pass."
+        },
+        {
+          "name": "Rumtek Monastery",
+          "city": "Gangtok",
+          "tag": "Dharma Chakra Centre",
+          "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=80",
+          "desc": "Grand Tibetan Buddhist monastery with golden stupa, intricate wall murals, and chanting monks."
+        },
+        {
+          "name": "Gurudongmar Lake",
+          "city": "North Sikkim",
+          "tag": "Sacred Glacial Waters",
+          "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80",
+          "desc": "One of the highest lakes in the world at 17,800 ft, holy to Buddhists, Sikhs, and Hindus."
+        },
+        {
+          "name": "Yuksom & Kangchenjunga Trail",
+          "city": "West Sikkim",
+          "tag": "First Capital of Sikkim",
+          "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
+          "desc": "Historic coronation throne of the Chogyal kings and starting point for high Himalayan expeditions."
+        }
+      ],
+      "travelTips": "Nathu La Pass and North Sikkim require special military permits obtained through registered Gangtok operators 24h prior."
     },
     {
       "id": "telangana",
@@ -558,7 +1689,58 @@
       "bestMonths": "October to March",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 2300,
-      "description": "Hyderabad's historic Charminar, acoustic marvels of Golconda Fort, Ramoji Film City, and iconic Hyderabadi Dum Biryani."
+      "description": "Hyderabad's historic Charminar, acoustic marvels of Golconda Fort, Ramoji Film City, and iconic Hyderabadi Dum Biryani.",
+      "culturalHighlights": [
+        "Charminar and Golconda Fort - architectural emblems of Qutb Shahi and Asaf Jahi dynasties",
+        "Hyderabadi pearl markets and Bidriware silver inlay metalwork",
+        "Ramappa Temple - UNESCO World Heritage engineering marvel built with lightweight floating bricks",
+        "Bonalu and Bathukamma colorful floral harvest festivals"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Hyderabadi Dum Biryani",
+          "desc": "Fragrant long-grain basmati rice layered with spiced meat, saffron, and fried onions, slow-cooked in a sealed handi."
+        },
+        {
+          "name": "Mirchi Ka Salan & Double Ka Meetha",
+          "desc": "Spicy peanut, sesame, and chili gravy alongside royal fried bread pudding soaked in saffron rabdi."
+        },
+        {
+          "name": "Haleem",
+          "desc": "Rich, slow-cooked porridge of meat, broken wheat, lentils, and pure desi ghee simmered for 12 hours."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Charminar & Laad Bazaar",
+          "city": "Hyderabad",
+          "tag": "Four Minarets of Hyderabad",
+          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+          "desc": "16th-century grand monument surrounded by bustling bazaars selling natural pearls and lac bangles."
+        },
+        {
+          "name": "Golconda Fort & Qutb Shahi Tombs",
+          "city": "Hyderabad",
+          "tag": "Acoustic Wonder Citadel",
+          "image": "https://images.unsplash.com/photo-1600100397608-f010f443b350?auto=format&fit=crop&w=600&q=80",
+          "desc": "Massive medieval fortress famous for acoustic clapping signals and origin of the Koh-i-Noor diamond."
+        },
+        {
+          "name": "Ramappa Temple",
+          "city": "Mulugu",
+          "tag": "UNESCO World Heritage",
+          "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=600&q=80",
+          "desc": "13th-century Kakatiya temple crafted from sandbox foundation and floating bricks with exquisite basalt dancers."
+        },
+        {
+          "name": "Salar Jung Museum",
+          "city": "Hyderabad",
+          "tag": "World Treasure House",
+          "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=80",
+          "desc": "One of the world's greatest one-man antique collections including the veiled marble statue of Rebecca."
+        }
+      ],
+      "travelTips": "Pair Irani chai with sweet Osmania biscuits at century-old cafes near Charminar. Attend the Golconda Fort sound and light show at dusk."
     },
     {
       "id": "tripura",
@@ -574,7 +1756,58 @@
       "bestMonths": "October to March",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 1900,
-      "description": "Neermahal palace surrounded by Rudrasagar Lake and the colossal bas-relief stone carvings of Lord Shiva at Unakoti."
+      "description": "Neermahal palace surrounded by Rudrasagar Lake and the colossal bas-relief stone carvings of Lord Shiva at Unakoti.",
+      "culturalHighlights": [
+        "Ujjayanta Palace and Neermahal - eastern India's only royal lake water palace",
+        "Unakoti rock-cut colossal bas-relief stone sculptures of Lord Shiva",
+        "Intricate indigenous cane, bamboo handicrafts, and handwoven Pachra textiles",
+        "Tripura Sundari Temple - ancient 500-year-old sacred Shakti Peeth"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Mui Borok & Berma",
+          "desc": "Traditional fermented fish preparation slow-cooked with fresh river fish, seasonal greens, and green chilies."
+        },
+        {
+          "name": "Chakhwi",
+          "desc": "Pork and bamboo shoot curry prepared with ginger, baking soda, and local fresh herbs."
+        },
+        {
+          "name": "Wahan Mosdeng",
+          "desc": "Charcoal-roasted shredded pork mixed with charred onions, fresh coriander, and fiery green chilies."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Neermahal Lake Palace",
+          "city": "Melaghar",
+          "tag": "Palace on Water",
+          "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
+          "desc": "Gleaming white palace built in 1930 floating in the center of the Rudrasagar Lake."
+        },
+        {
+          "name": "Unakoti Rock Sculptures",
+          "city": "Kailashahar",
+          "tag": "Lost Hill of Shiva",
+          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+          "desc": "7th-9th century colossal rock carving of Shiva's head rising 30 feet out of dense jungle hills."
+        },
+        {
+          "name": "Ujjayanta Palace",
+          "city": "Agartala",
+          "tag": "Royal State Museum",
+          "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=600&q=80",
+          "desc": "Neoclassical white palace set within formal Mughal gardens, now housing Northeast India's premier museum."
+        },
+        {
+          "name": "Tripura Sundari Temple",
+          "city": "Udaipur",
+          "tag": "Ancient Shakti Shrine",
+          "image": "https://images.unsplash.com/photo-1600100397608-f010f443b350?auto=format&fit=crop&w=600&q=80",
+          "desc": "500-year-old pilgrimage shrine shaped like a tortoise, situated on the banks of Kalyan Sagar."
+        }
+      ],
+      "travelTips": "Take a scenic rowboat to Neermahal from Rajghat. Wear comfortable shoes to explore the stone stairways of Unakoti."
     },
     {
       "id": "uttarakhand",
@@ -590,7 +1823,58 @@
       "bestMonths": "March to June & Sep to Nov",
       "peakSeason": "Summer",
       "avgBudgetPerDay": 2300,
-      "description": "World Capital of Yoga in Rishikesh, UNESCO Valley of Flowers carpeted in alpine blooms, Jim Corbett tigers, and ski slopes of Auli."
+      "description": "World Capital of Yoga in Rishikesh, UNESCO Valley of Flowers carpeted in alpine blooms, Jim Corbett tigers, and ski slopes of Auli.",
+      "culturalHighlights": [
+        "Devbhoomi (Land of the Gods) - revered Char Dham shrines (Badrinath, Kedarnath, Gangotri, Yamunotri)",
+        "Rishikesh - world yoga capital on the sacred banks of the Ganga river",
+        "Jim Corbett National Park - India's oldest national park and premier tiger haven",
+        "Valley of Flowers UNESCO World Heritage alpine meadow"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Kafuli & Chainsoo",
+          "desc": "Nutritious thick gravy of spinach and fenugreek leaves, paired with roasted black gram dal simmered in iron pots."
+        },
+        {
+          "name": "Aloo ke Gutke with Bhang Chutney",
+          "desc": "Fried mountain potatoes seasoned with wild jamboo herb and whole red chilies, served with hemp-seed dip."
+        },
+        {
+          "name": "Bal Mithai & Singori",
+          "desc": "Roasted brown fudge coated in white sugar balls, and condensed milk sweets wrapped in fragrant Maalu leaves."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Kedarnath & Badrinath",
+          "city": "Garhwal Himalayas",
+          "tag": "Sacred Char Dham",
+          "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=600&q=80",
+          "desc": "Ancient stone temples perched dramatically amidst towering snow-clad peaks."
+        },
+        {
+          "name": "Rishikesh & Haridwar Ghats",
+          "city": "Rishikesh",
+          "tag": "Yoga & Ganga Aarti",
+          "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
+          "desc": "Soul-stirring evening fire prayers on the holy riverbanks and thrilling whitewater rafting."
+        },
+        {
+          "name": "Jim Corbett National Park",
+          "city": "Nainital",
+          "tag": "Tiger Safari Sanctuary",
+          "image": "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?auto=format&fit=crop&w=600&q=80",
+          "desc": "Pristine Sal forests along the Ramganga river harboring Royal Bengal tigers, wild elephants, and leopards."
+        },
+        {
+          "name": "Valley of Flowers & Hemkund",
+          "city": "Chamoli",
+          "tag": "UNESCO Alpine Meadow",
+          "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80",
+          "desc": "High alpine meadow carpeted with 500+ species of wild Himalayan blooms at 12,000 ft."
+        }
+      ],
+      "travelTips": "Char Dham yatra requires mandatory biometric registration online. Valley of Flowers is accessible strictly from July to September."
     },
     {
       "id": "west-bengal",
@@ -606,7 +1890,58 @@
       "bestMonths": "October to March",
       "peakSeason": "Autumn",
       "avgBudgetPerDay": 2100,
-      "description": "The cultural city of Kolkata with Victoria Memorial, Darjeeling tea gardens with Everest views, and Sundarbans Royal Bengal tiger mangroves."
+      "description": "The cultural city of Kolkata with Victoria Memorial, Darjeeling tea gardens with Everest views, and Sundarbans Royal Bengal tiger mangroves.",
+      "culturalHighlights": [
+        "Kolkata - Cultural Capital of India with Victoria Memorial, Howrah Bridge, and colonial coffee houses",
+        "Darjeeling Himalayan Railway (Toy Train) and aromatic single-estate black teas",
+        "Sundarbans - world's largest mangrove delta and home of the swimming Royal Bengal Tiger",
+        "Durga Puja - UNESCO Intangible Cultural Heritage grand community festival"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Shorshe Ilish & Kosha Mangsho",
+          "desc": "Hilsa fish cooked in pungent yellow mustard and green chili gravy, and slow-cooked rich dark mutton curry."
+        },
+        {
+          "name": "Kolkata Biryani & Kathi Roll",
+          "desc": "Aromatic Awadhi-style basmati rice with spiced potatoes and boiled egg, and flaky parathas wrapped around kebabs."
+        },
+        {
+          "name": "Rosogolla & Mishti Doi",
+          "desc": "Spongy cottage cheese balls soaked in warm syrup alongside caramelized sweetened baked yogurt."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Victoria Memorial & Howrah Bridge",
+          "city": "Kolkata",
+          "tag": "City of Joy Icons",
+          "image": "https://images.unsplash.com/photo-1558431382-27e303142255?auto=format&fit=crop&w=600&q=80",
+          "desc": "White Makrana marble monument set in sprawling gardens, beside the iconic cantilever steel bridge across Hooghly."
+        },
+        {
+          "name": "Darjeeling Tiger Hill & Tea Gardens",
+          "city": "Darjeeling",
+          "tag": "Queen of the Hills",
+          "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
+          "desc": "Golden sunrise views over Mt. Kanchenjunga and vintage Toy Train rides winding through misty tea estates."
+        },
+        {
+          "name": "Sundarbans Mangrove Delta",
+          "city": "South 24 Parganas",
+          "tag": "UNESCO Biosphere Reserve",
+          "image": "https://images.unsplash.com/photo-1511497584788-87676104235f?auto=format&fit=crop&w=600&q=80",
+          "desc": "Vast tidal mangrove waterways explored via motorboats to spot wild tigers, estuarine crocodiles, and spotted deer."
+        },
+        {
+          "name": "Dakshineswar & Belur Math",
+          "city": "Kolkata",
+          "tag": "Spiritual Waterfront",
+          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+          "desc": "Historic 19th-century riverside Kali temple and Ramakrishna Mission headquarters symbolizing unity of faiths."
+        }
+      ],
+      "travelTips": "Ride a vintage yellow Ambassador taxi or Kolkata tram. Book the Darjeeling Toy Train joyride early through IRCTC."
     },
     {
       "id": "andaman-and-nicobar-islands",
@@ -622,7 +1957,58 @@
       "bestMonths": "October to May",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 3400,
-      "description": "Pristine white sand beaches on Havelock Island (Swaraj Dweep), scuba diving with sea turtles, and national historic memorial Cellular Jail."
+      "description": "Pristine white sand beaches on Havelock Island (Swaraj Dweep), scuba diving with sea turtles, and national historic memorial Cellular Jail.",
+      "culturalHighlights": [
+        "Radhanagar Beach - voted among Asia's best beaches by Time magazine",
+        "Cellular Jail (Kala Pani) national memorial in Port Blair",
+        "Pristine coral reefs of Havelock (Swaraj Dweep) and Neil Island",
+        "Scuba diving, bioluminescent night kayaking, and undersea walking"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Andaman Fish Curry",
+          "desc": "Fresh ocean catch simmered in rich coconut milk, curry leaves, and coastal spices."
+        },
+        {
+          "name": "Tandoori Lobster & Prawn Butter Garlic",
+          "desc": "Freshly grilled local lobster and butter-garlic tossed jumbo prawns served at beachfront shacks."
+        },
+        {
+          "name": "Coconut Prawn Curry & Banana Halwa",
+          "desc": "Creamy seafood curry served with hot rice and sweet local plantain halwa."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Radhanagar Beach",
+          "city": "Havelock Island",
+          "tag": "Asia's Finest Beach",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80",
+          "desc": "Powdery white sand fringed by tall mahua trees opening onto calm turquoise waters and sunset views."
+        },
+        {
+          "name": "Cellular Jail National Memorial",
+          "city": "Port Blair",
+          "tag": "Historic Freedom Shrine",
+          "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=80",
+          "desc": "Seven-winged colonial prison where Indian freedom fighters were exiled, featuring a moving evening sound and light show."
+        },
+        {
+          "name": "Elephant Beach & Reefs",
+          "city": "Havelock Island",
+          "tag": "Coral Reef Haven",
+          "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
+          "desc": "Crystal-clear shallow waters teeming with vibrant coral reefs, sea anemones, and colorful clownfish."
+        },
+        {
+          "name": "Ross Island (NSC Bose Dweep)",
+          "city": "Port Blair",
+          "tag": "Historic Living Ruin",
+          "image": "https://images.unsplash.com/photo-1511497584788-87676104235f?auto=format&fit=crop&w=600&q=80",
+          "desc": "British colonial ruins beautifully overgrown by aerial banyan tree roots, with friendly spotted deer roaming free."
+        }
+      ],
+      "travelTips": "Book high-speed inter-island private catamaran ferries (Makruzz / Nautika) 3-4 weeks ahead. Strict penalties apply for touching coral reefs."
     },
     {
       "id": "chandigarh-ut",
@@ -638,7 +2024,58 @@
       "bestMonths": "October to March",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 2200,
-      "description": "India's premier planned city, Nek Chand's recycled art Rock Garden, and Sukhna Lake promenades."
+      "description": "India's premier planned city, Nek Chand's recycled art Rock Garden, and Sukhna Lake promenades.",
+      "culturalHighlights": [
+        "India's first planned modern city designed by Swiss-French master architect Le Corbusier",
+        "Nek Chand's Rock Garden - 20-acre labyrinth made entirely from industrial and urban waste",
+        "Sukhna Lake morning walks, boating, and Shivalik mountain vistas",
+        "Zakir Hussain Rose Garden - Asia's largest rose conservatory"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Chole Bhature",
+          "desc": "Puffy golden fried leavened bread served with spiced chickpea gravy, pickled carrots, and green chili."
+        },
+        {
+          "name": "Stuffed Butter Paranthas",
+          "desc": "Crispy tandoori paranthas loaded with paneer or potatoes, crowned with melting homemade white butter."
+        },
+        {
+          "name": "Rabdi Falooda",
+          "desc": "Chilled dessert layered with rose syrup, vermicelli, sweet basil seeds, and rich clotted cream."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Nek Chand's Rock Garden",
+          "city": "Sector 1",
+          "tag": "Recycled Art Wonder",
+          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+          "desc": "Fantasy kingdom of courtyards, waterfalls, and sculptures sculpted from broken bangles, ceramic tiles, and discarded sockets."
+        },
+        {
+          "name": "Sukhna Lake",
+          "city": "Sector 1",
+          "tag": "Man-Made Serenity",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80",
+          "desc": "3 sq km peaceful lake at the base of the Shivalik hills, beloved for paddle boating and jogging."
+        },
+        {
+          "name": "Capitol Complex & Open Hand",
+          "city": "Sector 1",
+          "tag": "UNESCO Modernist Architecture",
+          "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=80",
+          "desc": "Le Corbusier's iconic concrete masterpieces including the Secretariat, High Court, and rotating Open Hand Monument."
+        },
+        {
+          "name": "Zakir Hussain Rose Garden",
+          "city": "Sector 16",
+          "tag": "Asia's Largest Rose Park",
+          "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
+          "desc": "30-acre landscaped park displaying 1,600 varieties of blooming roses and medicinal trees."
+        }
+      ],
+      "travelTips": "Rent public SmartBikes to explore Chandigarh's dedicated, tree-canopied cycling tracks across sectors."
     },
     {
       "id": "dadra-nagar-haveli-daman-diu",
@@ -654,7 +2091,58 @@
       "bestMonths": "October to March",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 2100,
-      "description": "Historic seaside forts of Moti Daman and Diu Fort, peaceful palm-fringed coastlines, and colonial chapels."
+      "description": "Historic seaside forts of Moti Daman and Diu Fort, peaceful palm-fringed coastlines, and colonial chapels.",
+      "culturalHighlights": [
+        "16th-century Portuguese coastal fortresses, ramparts, and cathedrals in Diu",
+        "Silvassa lush tribal landscapes and indigenous Warli wall art",
+        "Nagoa Beach crescent lined with rare branching African Hoka trees",
+        "Tranquil Arabian Sea coastal promenades and water sports"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Cozido & Crab Masala",
+          "desc": "Portuguese-influenced slow-cooked meat and vegetable stew alongside spiced fresh sea crab."
+        },
+        {
+          "name": "Khatta Meetha Poha",
+          "desc": "Sweet and tangy tempered flattened rice with roasted peanuts, curry leaves, and lemon juice."
+        },
+        {
+          "name": "Daman Coastal Seafood Platter",
+          "desc": "Fresh pomfret and tiger prawns marinated in Konkani spices and rava fried to a crisp golden crust."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Diu Fort & St. Paul's Church",
+          "city": "Diu Island",
+          "tag": "Portuguese Coastal Citadel",
+          "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=600&q=80",
+          "desc": "Massive stone sea fortress with vintage cannons overlooking crashing waves and a 1601 Baroque cathedral."
+        },
+        {
+          "name": "Nagoa Beach",
+          "city": "Diu Island",
+          "tag": "Horseshoe Palm Haven",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80",
+          "desc": "Calm, sheltered horseshoe bay fringed by rare branching Hoka trees brought by Portuguese sailors."
+        },
+        {
+          "name": "Moti Daman & Nani Daman Forts",
+          "city": "Daman",
+          "tag": "Twin Coastal Citadels",
+          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+          "desc": "16th-century bastions housing carved wood altars in the Church of Our Lady of Remedies."
+        },
+        {
+          "name": "Dudhni Lake & Tribal Museum",
+          "city": "Silvassa",
+          "tag": "Madhuban Waters",
+          "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
+          "desc": "Expansive reservoir offering speedboating, surrounded by tribal cultural artifacts and Warli craft centers."
+        }
+      ],
+      "travelTips": "Rent a scooter in Diu to explore tranquil lighthouses, sea caves, and beaches at your own relaxed pace."
     },
     {
       "id": "delhi",
@@ -670,7 +2158,58 @@
       "bestMonths": "October to March",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 2400,
-      "description": "Sprawling metropolis housing Humayun's Tomb, India Gate, culinary labyrinth of Old Delhi, and grand Rajpath boulevard."
+      "description": "Sprawling metropolis housing Humayun's Tomb, India Gate, culinary labyrinth of Old Delhi, and grand Rajpath boulevard.",
+      "culturalHighlights": [
+        "National Capital spanning 8 historic cities of empires over a millennium",
+        "UNESCO World Heritage trio: Red Fort, Qutub Minar, and Humayun's Tomb",
+        "Chandni Chowk - bustling 350-year-old Mughal bazaar and street food paradise",
+        "India Gate, Rashtrapati Bhavan, and sprawling tree-lined Lutyens' boulevards"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Butter Chicken & Dal Makhani",
+          "desc": "Iconic tandoor-charred chicken in rich tomato-butter-cream gravy and 24-hour slow-cooked black lentils."
+        },
+        {
+          "name": "Chandni Chowk Paranthe & Chaat",
+          "desc": "Crispy fried stuffed flatbreads at Paranthe Wali Gali, and tangy Dahi Bhalla drizzled with tamarind chutney."
+        },
+        {
+          "name": "Old Delhi Nihari & Khamiri Roti",
+          "desc": "Slow-cooked aromatic beef or mutton stew savored early morning near Jama Masjid with soft tandoori bread."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Red Fort (Lal Qila) & Jama Masjid",
+          "city": "Old Delhi",
+          "tag": "UNESCO Mughal Grandeur",
+          "image": "https://images.unsplash.com/photo-1585136917228-569b9c97b8fa?auto=format&fit=crop&w=600&q=80",
+          "desc": "17th-century red sandstone imperial palace of Shah Jahan and India's largest historic congregational mosque."
+        },
+        {
+          "name": "Qutub Minar & Iron Pillar",
+          "city": "Mehrauli",
+          "tag": "UNESCO World's Tallest Brick Minaret",
+          "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=80",
+          "desc": "73m soaring 12th-century victory tower and the 1,600-year-old rust-resistant metallurgical iron pillar."
+        },
+        {
+          "name": "Humayun's Tomb & Sunder Nursery",
+          "city": "Nizamuddin",
+          "tag": "UNESCO Garden Tomb",
+          "image": "https://images.unsplash.com/photo-1600100397608-f010f443b350?auto=format&fit=crop&w=600&q=80",
+          "desc": "Symmetrical Persian-style red-sandstone and marble mausoleum that inspired the Taj Mahal, beside a 90-acre heritage park."
+        },
+        {
+          "name": "India Gate & Kartavya Path",
+          "city": "Central Delhi",
+          "tag": "National War Memorial",
+          "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=600&q=80",
+          "desc": "42-meter ceremonial triumphal arch honoring Indian soldiers, flanked by illuminated fountains and lawns."
+        }
+      ],
+      "travelTips": "Use the modern Delhi Metro network with a day tourist card to zip across the city seamlessly. Take cycle rickshaws through Old Delhi alleys."
     },
     {
       "id": "jammu-and-kashmir",
@@ -686,7 +2225,58 @@
       "bestMonths": "March to October & Dec to Feb",
       "peakSeason": "Summer",
       "avgBudgetPerDay": 2900,
-      "description": "Gliding on ornate wooden Shikaras in Dal Lake, skiing down powdery Gulmarg slopes, and saffron gardens of Pampore."
+      "description": "Gliding on ornate wooden Shikaras in Dal Lake, skiing down powdery Gulmarg slopes, and saffron gardens of Pampore.",
+      "culturalHighlights": [
+        "Srinagar Dal Lake with wooden Shikara gondolas and heritage floating houseboats",
+        "Gulmarg - Asia's premier skiing destination with world's highest cable car (Gondola)",
+        "Pashmina cashmere wool weaving and walnut wood carving",
+        "Mata Vaishno Devi shrine atop Trikuta mountains"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Kashmiri Wazwan (Rogan Josh & Rista)",
+          "desc": "Multi-course royal feast featuring tender mutton cooked with Kashmiri red chilies, saffron, and velvety yogurt gravy."
+        },
+        {
+          "name": "Kashmiri Kahwa",
+          "desc": "Golden green tea infused with saffron strands, whole cinnamon, green cardamom, and slivered almonds."
+        },
+        {
+          "name": "Dum Aloo & Nadru Yakhni",
+          "desc": "Deep-fried baby potatoes in spicy curd sauce, and crisp lotus stems simmered in delicate aromatic yogurt broth."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Dal Lake & Mughal Gardens",
+          "city": "Srinagar",
+          "tag": "Jewel in the Crown",
+          "image": "https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=600&q=80",
+          "desc": "Tranquil lake dotted with carved cedarwood houseboats, floating flower markets, and terraced Mughal fountains."
+        },
+        {
+          "name": "Gulmarg Gondola & Apharwat Peak",
+          "city": "Gulmarg",
+          "tag": "Meadow of Flowers",
+          "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=600&q=80",
+          "desc": "Operating cable car reaching 13,780 ft offering panoramic views of Pir Panjal snow peaks and winter skiing."
+        },
+        {
+          "name": "Pahalgam & Betaab Valley",
+          "city": "Anantnag",
+          "tag": "Valley of the Shepherds",
+          "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
+          "desc": "Gushing Lidder River, pine-scented mountain trails, pony treks, and gateway to the Amarnath cave."
+        },
+        {
+          "name": "Mata Vaishno Devi Shrine",
+          "city": "Katra",
+          "tag": "Sacred Mountain Shrine",
+          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+          "desc": "Revered natural holy cave shrine in the Trikuta mountains welcoming over 8 million pilgrims annually."
+        }
+      ],
+      "travelTips": "Book Gulmarg Gondola Phase 2 tickets 1-2 months ahead online. Stay on a registered heritage houseboat on Nigeen or Dal Lake."
     },
     {
       "id": "lakshadweep",
@@ -702,7 +2292,58 @@
       "bestMonths": "October to Mid-May",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 4200,
-      "description": "Secluded archipelago of 36 islands boasting untouched turquoise lagoons, vibrant coral reefs, and water sports."
+      "description": "Secluded archipelago of 36 islands boasting untouched turquoise lagoons, vibrant coral reefs, and water sports.",
+      "culturalHighlights": [
+        "Pristine coral archipelago in the Arabian Sea with untouched turquoise lagoons",
+        "Bangaram, Agatti, and Kavaratti white sand paradise atolls",
+        "Rich marine biodiversity: sea turtles, manta rays, and live coral reefs",
+        "Traditional coir rope weaving and tuna fishing heritage"
+      ],
+      "famousCuisine": [
+        {
+          "name": "Mas Mus & Mus Kavaabu",
+          "desc": "Smoked dried skipjack tuna prepared with grated fresh coconut, turmeric, and local herbs."
+        },
+        {
+          "name": "Octopus Fry & Coconut Fish Curry",
+          "desc": "Tender ocean octopus tossed with green chilies, alongside creamy tuna coconut curry."
+        },
+        {
+          "name": "Rayere Appam",
+          "desc": "Fluffy puffed rice dumplings sweetened with palm jaggery and fresh coconut milk."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Bangaram Atoll & Lagoon",
+          "city": "Bangaram",
+          "tag": "Teardrop Island Paradise",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80",
+          "desc": "Uninhabited coral island with shallow turquoise lagoon, bioluminescent night plankton, and shipwrecks."
+        },
+        {
+          "name": "Agatti Island Lagoon",
+          "city": "Agatti",
+          "tag": "Gateway to Lakshadweep",
+          "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
+          "desc": "Spectacular island with an airport runway extending into the sea, surrounded by coral gardens."
+        },
+        {
+          "name": "Kavaratti Marine Aquarium",
+          "city": "Kavaratti",
+          "tag": "Administrative Capital",
+          "image": "https://images.unsplash.com/photo-1511497584788-87676104235f?auto=format&fit=crop&w=600&q=80",
+          "desc": "Glass-bottom boat tours, windsurfing, and marine museum showcasing indigenous coral specimens."
+        },
+        {
+          "name": "Kadmat Island Scuba Diving",
+          "city": "Kadmat",
+          "tag": "PADI Diving Haven",
+          "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
+          "desc": "Slender 8km island renowned for crystal clear underwater visibility and live coral reefs."
+        }
+      ],
+      "travelTips": "Entry Permit is mandatory for all visitors through SPORTS Lakshadweep administration. Alcohol is prohibited except on Bangaram Island."
     },
     {
       "id": "puducherry",
@@ -718,7 +2359,58 @@
       "bestMonths": "October to March",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 2300,
-      "description": "Mustard-yellow French colonial architecture, bicycle-friendly streets, experimental township Auroville, and seaside cafes."
+      "description": "Mustard-yellow French colonial architecture, bicycle-friendly streets, experimental township Auroville, and seaside cafes.",
+      "culturalHighlights": [
+        "French Quarter (White Town) with mustard-yellow colonial villas and bougainvillea",
+        "Auroville - international township dedicated to human unity and Matrimandir",
+        "Sri Aurobindo Ashram spiritual meditation sanctuary",
+        "Promenade Beach and tranquil surfing breaks at Serenity Beach"
+      ],
+      "famousCuisine": [
+        {
+          "name": "French-Creole Seafood Bouillabaisse",
+          "desc": "Fragrant seafood stew cooked with coastal spices, white wine, and fresh crab, served with baguettes."
+        },
+        {
+          "name": "Pondicherry Fish Assad",
+          "desc": "Delicate white fish curry prepared with fresh coconut milk, aniseed, and mild green chilies."
+        },
+        {
+          "name": "Buttery Croissants & Cafe Au Lait",
+          "desc": "Freshly baked flaky pastries, sourdough sandwiches, and rich French-pressed coffee in charming garden cafes."
+        }
+      ],
+      "attractions": [
+        {
+          "name": "White Town (French Quarter)",
+          "city": "Puducherry",
+          "tag": "Colonial French Charm",
+          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+          "desc": "Cobblestone streets lined with pastel yellow colonial mansions, chic boutiques, and flowering bougainvillea."
+        },
+        {
+          "name": "Matrimandir & Auroville",
+          "city": "Auroville",
+          "tag": "Golden Geodesic Sphere",
+          "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=80",
+          "desc": "Golden dome in an international township, featuring an inner white marble silent meditation chamber."
+        },
+        {
+          "name": "Promenade Beach (Goubert Avenue)",
+          "city": "Puducherry",
+          "tag": "Seaside Walkway",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80",
+          "desc": "1.5 km scenic vehicular-free evening ocean promenade with sea spray and French war memorial."
+        },
+        {
+          "name": "Paradise Beach & Chunnambar",
+          "city": "Chunnambar",
+          "tag": "Golden Sand Spit",
+          "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80",
+          "desc": "Scenic backwater boat ferry ride reaching an isolated spit of golden sand and blue sea."
+        }
+      ],
+      "travelTips": "Rent a vintage bicycle to explore the French Quarter lanes. Pre-book Matrimandir inner chamber passes 2-3 days prior."
     }
   ],
   "seasons": {
@@ -730,12 +2422,39 @@
       "avgTemp": "10°C – 24°C (Plains/South) | -5°C – 10°C (Himalayas)",
       "climateSummary": "Ideal sunny weather across Rajasthan, Central & South India. Heavy snowfall in Kashmir and Himachal.",
       "packingTips": "Heavy woolens for Himalayas; light layers and shawls for Rajasthan/Delhi; light cottons for Goa and Kerala.",
-      "recommendedRegions": ["Rajasthan", "Kerala", "Goa", "Gujarat (Rann of Kutch)", "Tamil Nadu", "Kashmir (Snow)"],
+      "recommendedRegions": [
+        "Rajasthan",
+        "Kerala",
+        "Goa",
+        "Gujarat (Rann of Kutch)",
+        "Tamil Nadu",
+        "Kashmir (Snow)"
+      ],
       "festivals": [
-        { "name": "Pushkar Camel Fair", "location": "Rajasthan", "month": "November", "desc": "World's largest livestock fair with folk music, turban tying competitions, and hot air balloons." },
-        { "name": "Rann Utsav", "location": "Kutch, Gujarat", "month": "Dec – Feb", "desc": "White salt desert carnival with tent cities, Kutchi embroidery stalls, and full-moon camel rides." },
-        { "name": "Hornbill Festival", "location": "Nagaland", "month": "December", "desc": "The Festival of Festivals uniting all 16 Naga tribes for indigenous dances, warrior games, and feastings." },
-        { "name": "Sunburn / Goa Music Festivals", "location": "Goa", "month": "December", "desc": "Vibrant beach parties, Christmas Eve fireworks, and midnight masses in historic Old Goa churches." }
+        {
+          "name": "Pushkar Camel Fair",
+          "location": "Rajasthan",
+          "month": "November",
+          "desc": "World's largest livestock fair with folk music, turban tying competitions, and hot air balloons."
+        },
+        {
+          "name": "Rann Utsav",
+          "location": "Kutch, Gujarat",
+          "month": "Dec – Feb",
+          "desc": "White salt desert carnival with tent cities, Kutchi embroidery stalls, and full-moon camel rides."
+        },
+        {
+          "name": "Hornbill Festival",
+          "location": "Nagaland",
+          "month": "December",
+          "desc": "The Festival of Festivals uniting all 16 Naga tribes for indigenous dances, warrior games, and feastings."
+        },
+        {
+          "name": "Sunburn / Goa Music Festivals",
+          "location": "Goa",
+          "month": "December",
+          "desc": "Vibrant beach parties, Christmas Eve fireworks, and midnight masses in historic Old Goa churches."
+        }
       ]
     },
     "summer": {
@@ -746,11 +2465,32 @@
       "avgTemp": "15°C – 26°C (Hill Stations) | 32°C – 42°C (Plains)",
       "climateSummary": "Warm and sunny across the central and southern plains; crisp, pleasant, and accessible in high-altitude Himalayas.",
       "packingTips": "Sunscreen, sunglasses, breathable cottons for sightseeing; light fleece jacket for high passes like Khardung La & Rohtang.",
-      "recommendedRegions": ["Ladakh", "Himachal Pradesh", "Uttarakhand (Rishikesh & Valley of Flowers)", "Sikkim", "Ooty & Munnar"],
+      "recommendedRegions": [
+        "Ladakh",
+        "Himachal Pradesh",
+        "Uttarakhand (Rishikesh & Valley of Flowers)",
+        "Sikkim",
+        "Ooty & Munnar"
+      ],
       "festivals": [
-        { "name": "Hemis Festival", "location": "Ladakh", "month": "June/July", "desc": "Celebration of Guru Padmasambhava with sacred Cham mask dances and huge silk Thangka displays." },
-        { "name": "Baisakhi", "location": "Punjab", "month": "April", "desc": "Harvest festival filled with lively Bhangra, Gidda, and colorful fairs at the Golden Temple." },
-        { "name": "Ooty Flower Show", "location": "Tamil Nadu", "month": "May", "desc": "Exhibition of exotic orchids, bonsai, and millions of cut flowers in the Nilgiri Government Botanical Garden." }
+        {
+          "name": "Hemis Festival",
+          "location": "Ladakh",
+          "month": "June/July",
+          "desc": "Celebration of Guru Padmasambhava with sacred Cham mask dances and huge silk Thangka displays."
+        },
+        {
+          "name": "Baisakhi",
+          "location": "Punjab",
+          "month": "April",
+          "desc": "Harvest festival filled with lively Bhangra, Gidda, and colorful fairs at the Golden Temple."
+        },
+        {
+          "name": "Ooty Flower Show",
+          "location": "Tamil Nadu",
+          "month": "May",
+          "desc": "Exhibition of exotic orchids, bonsai, and millions of cut flowers in the Nilgiri Government Botanical Garden."
+        }
       ]
     },
     "monsoon": {
@@ -761,11 +2501,32 @@
       "avgTemp": "22°C – 30°C",
       "climateSummary": "Southwest monsoon drenches the subcontinent, turning the Western Ghats and Meghalaya into dramatic rainforests.",
       "packingTips": "Sturdy waterproof backpack, quick-dry clothes, umbrella, rain poncho, and mosquito repellent.",
-      "recommendedRegions": ["Meghalaya (Cherrapunji & Mawlynnong)", "Kerala (Ayurveda Peak)", "Udaipur (City of Lakes)", "Coorg & Wayanad", "Spiti & Ladakh (Rain-Shadow Areas)"],
+      "recommendedRegions": [
+        "Meghalaya (Cherrapunji & Mawlynnong)",
+        "Kerala (Ayurveda Peak)",
+        "Udaipur (City of Lakes)",
+        "Coorg & Wayanad",
+        "Spiti & Ladakh (Rain-Shadow Areas)"
+      ],
       "festivals": [
-        { "name": "Onam", "location": "Kerala", "month": "August/September", "desc": "Harvest homecoming of King Mahabali celebrated with floral Pookkalams, Sadya feasts, and snake boat races." },
-        { "name": "Ganesh Chaturthi", "location": "Maharashtra", "month": "August/September", "desc": "Grand 10-day celebration in Mumbai with towering Ganesha idols, Dhol-Tasha drumming, and beach immersions." },
-        { "name": "Teej Festival", "location": "Rajasthan", "month": "July/August", "desc": "Celebration of monsoon welcoming Parvati with swings hung from banyan trees, Ghevar sweets, and green lehengas." }
+        {
+          "name": "Onam",
+          "location": "Kerala",
+          "month": "August/September",
+          "desc": "Harvest homecoming of King Mahabali celebrated with floral Pookkalams, Sadya feasts, and snake boat races."
+        },
+        {
+          "name": "Ganesh Chaturthi",
+          "location": "Maharashtra",
+          "month": "August/September",
+          "desc": "Grand 10-day celebration in Mumbai with towering Ganesha idols, Dhol-Tasha drumming, and beach immersions."
+        },
+        {
+          "name": "Teej Festival",
+          "location": "Rajasthan",
+          "month": "July/August",
+          "desc": "Celebration of monsoon welcoming Parvati with swings hung from banyan trees, Ghevar sweets, and green lehengas."
+        }
       ]
     },
     "autumn": {
@@ -776,11 +2537,32 @@
       "avgTemp": "20°C – 30°C",
       "climateSummary": "Skies clear up to reveal vibrant blue horizons. Temperatures turn pleasantly mild before winter chill arrives.",
       "packingTips": "Comfortable walking shoes, daylight casuals, light cardigan or stole for cooler evenings.",
-      "recommendedRegions": ["Kolkata & West Bengal (Durga Puja)", "National Parks (Kanha, Jim Corbett, Ranthambore)", "Varanasi", "Meghalaya", "Rajasthan"],
+      "recommendedRegions": [
+        "Kolkata & West Bengal (Durga Puja)",
+        "National Parks (Kanha, Jim Corbett, Ranthambore)",
+        "Varanasi",
+        "Meghalaya",
+        "Rajasthan"
+      ],
       "festivals": [
-        { "name": "Durga Puja", "location": "Kolkata, West Bengal", "month": "October", "desc": "UNESCO Intangible Cultural Heritage: thousands of magnificent themed art pandals, Dhunuchi dance, and festive fervor." },
-        { "name": "Mysuru Dasara", "location": "Mysore, Karnataka", "month": "October", "desc": "Centuries-old royal procession featuring the golden howdah carried by caparisoned elephants and 100,000 bulbs illuminating the Palace." },
-        { "name": "Diwali (Festival of Lights)", "location": "Pan-India", "month": "October/November", "desc": "Millions of clay diyas, fireworks, rangoli patterns, and exchange of sweets celebrating the victory of light over darkness." }
+        {
+          "name": "Durga Puja",
+          "location": "Kolkata, West Bengal",
+          "month": "October",
+          "desc": "UNESCO Intangible Cultural Heritage: thousands of magnificent themed art pandals, Dhunuchi dance, and festive fervor."
+        },
+        {
+          "name": "Mysuru Dasara",
+          "location": "Mysore, Karnataka",
+          "month": "October",
+          "desc": "Centuries-old royal procession featuring the golden howdah carried by caparisoned elephants and 100,000 bulbs illuminating the Palace."
+        },
+        {
+          "name": "Diwali (Festival of Lights)",
+          "location": "Pan-India",
+          "month": "October/November",
+          "desc": "Millions of clay diyas, fireworks, rangoli patterns, and exchange of sweets celebrating the victory of light over darkness."
+        }
       ]
     }
   },
@@ -795,7 +2577,13 @@
       "rating": 4.8,
       "reviewsCount": 850,
       "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=600&q=80",
-      "amenities": ["High-Speed WiFi", "Air Conditioning", "Common Rooftop Cafe", "Walking Tours", "Female Dorms Available"],
+      "amenities": [
+        "High-Speed WiFi",
+        "Air Conditioning",
+        "Common Rooftop Cafe",
+        "Walking Tours",
+        "Female Dorms Available"
+      ],
       "proximity": "10 mins walk from Hawa Mahal & Old Pink City Bazaars",
       "tier": "budget"
     },
@@ -809,7 +2597,13 @@
       "rating": 4.7,
       "reviewsCount": 620,
       "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80",
-      "amenities": ["High-Speed WiFi", "Bonfire Nights", "Mountain Valley View", "Cafe & Board Games", "Workstation Desks"],
+      "amenities": [
+        "High-Speed WiFi",
+        "Bonfire Nights",
+        "Mountain Valley View",
+        "Cafe & Board Games",
+        "Workstation Desks"
+      ],
       "proximity": "Nestled in cedar woods, 5 mins from Manu Temple",
       "tier": "budget"
     },
@@ -823,7 +2617,13 @@
       "rating": 4.8,
       "reviewsCount": 490,
       "image": "https://images.unsplash.com/photo-1540518614846-7ede433c4ef7?auto=format&fit=crop&w=600&q=80",
-      "amenities": ["High-Speed WiFi", "Rooftop Yoga Studio", "Ganga River View", "Cafe", "Lockers"],
+      "amenities": [
+        "High-Speed WiFi",
+        "Rooftop Yoga Studio",
+        "Ganga River View",
+        "Cafe",
+        "Lockers"
+      ],
       "proximity": "Overlooking the holy river Ganga, 300m from Laxman Jhula",
       "tier": "budget"
     },
@@ -837,7 +2637,13 @@
       "rating": 4.6,
       "reviewsCount": 540,
       "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80",
-      "amenities": ["High-Speed WiFi", "Air Conditioning", "Bicycle & Scooter Rental", "Chill Garden Courtyard", "Bar & Live DJ"],
+      "amenities": [
+        "High-Speed WiFi",
+        "Air Conditioning",
+        "Bicycle & Scooter Rental",
+        "Chill Garden Courtyard",
+        "Bar & Live DJ"
+      ],
       "proximity": "2 minutes barefoot stroll from Anjuna Flea Market & Beach",
       "tier": "budget"
     },
@@ -851,7 +2657,13 @@
       "rating": 4.9,
       "reviewsCount": 380,
       "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
-      "amenities": ["Air Conditioning", "Complimentary Rajasthani Breakfast", "Rooftop Fort View Restaurant", "Heritage Courtyard", "WiFi"],
+      "amenities": [
+        "Air Conditioning",
+        "Complimentary Rajasthani Breakfast",
+        "Rooftop Fort View Restaurant",
+        "Heritage Courtyard",
+        "WiFi"
+      ],
       "proximity": "Direct unobstructed view of Mehrangarh Fort ramparts",
       "tier": "mid-range"
     },
@@ -865,7 +2677,13 @@
       "rating": 4.9,
       "reviewsCount": 290,
       "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=600&q=80",
-      "amenities": ["Complimentary Kerala Breakfast", "Canoe Rides", "Ayurvedic Massage on Request", "Veranda by Canal", "Free WiFi"],
+      "amenities": [
+        "Complimentary Kerala Breakfast",
+        "Canoe Rides",
+        "Ayurvedic Massage on Request",
+        "Veranda by Canal",
+        "Free WiFi"
+      ],
       "proximity": "Located right on the tranquil Vembanad Lake canals",
       "tier": "mid-range"
     },
@@ -879,7 +2697,12 @@
       "rating": 4.8,
       "reviewsCount": 310,
       "image": "https://images.unsplash.com/photo-1596401057633-54a8fe8ef647?auto=format&fit=crop&w=600&q=80",
-      "amenities": ["Fresh Farm-to-Table Meals", "Coffee Estate Trail Walks", "Campfire & Barbecue", "Birdwatching Deck"],
+      "amenities": [
+        "Fresh Farm-to-Table Meals",
+        "Coffee Estate Trail Walks",
+        "Campfire & Barbecue",
+        "Birdwatching Deck"
+      ],
       "proximity": "Surrounded by 40 acres of private spice and coffee trees",
       "tier": "mid-range"
     },
@@ -893,7 +2716,12 @@
       "rating": 4.7,
       "reviewsCount": 180,
       "image": "https://images.unsplash.com/photo-1596895111956-bf1cf0599ce5?auto=format&fit=crop&w=600&q=80",
-      "amenities": ["Organic Khasi Meals", "Natural Stream Dipping", "Local Guide Services", "Solar Power & Clean Spring Water"],
+      "amenities": [
+        "Organic Khasi Meals",
+        "Natural Stream Dipping",
+        "Local Guide Services",
+        "Solar Power & Clean Spring Water"
+      ],
       "proximity": "15 minutes hike from the Double Decker Living Root Bridge",
       "tier": "mid-range"
     },
@@ -904,10 +2732,16 @@
       "state": "Rajasthan",
       "city": "Udaipur",
       "pricePerNight": 28500,
-      "rating": 5.0,
+      "rating": 5,
       "reviewsCount": 1200,
       "image": "https://images.unsplash.com/photo-1615836245337-f5b9b2303f10?auto=format&fit=crop&w=600&q=80",
-      "amenities": ["Private Butler Service", "Semi-Private Moat Pools", "Luxury Spa & Boat Transfers", "Fine Dining Palaces", "Royal Folk Recitals"],
+      "amenities": [
+        "Private Butler Service",
+        "Semi-Private Moat Pools",
+        "Luxury Spa & Boat Transfers",
+        "Fine Dining Palaces",
+        "Royal Folk Recitals"
+      ],
       "proximity": "Spanning 50 acres on the banks of historic Lake Pichola",
       "tier": "luxury"
     },
@@ -921,7 +2755,13 @@
       "rating": 4.9,
       "reviewsCount": 780,
       "image": "https://images.unsplash.com/photo-1540518614846-7ede433c4ef7?auto=format&fit=crop&w=600&q=80",
-      "amenities": ["Meandering Poolside Villas", "Ayurvedic Spa & Wellness", "Sunset Catamaran Cruises", "Seafood Fine Dining", "Private Plunge Pool"],
+      "amenities": [
+        "Meandering Poolside Villas",
+        "Ayurvedic Spa & Wellness",
+        "Sunset Catamaran Cruises",
+        "Seafood Fine Dining",
+        "Private Plunge Pool"
+      ],
       "proximity": "Nestled on pristine backwaters, prince-tested luxury",
       "tier": "luxury"
     },
@@ -935,7 +2775,13 @@
       "rating": 4.9,
       "reviewsCount": 650,
       "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=600&q=80",
-      "amenities": ["Heated Outdoor Whirlpool with Snow Views", "Cedar Forest Sanctuary", "Billiards Room", "Fine Dining", "Luxury Spa"],
+      "amenities": [
+        "Heated Outdoor Whirlpool with Snow Views",
+        "Cedar Forest Sanctuary",
+        "Billiards Room",
+        "Fine Dining",
+        "Luxury Spa"
+      ],
       "proximity": "8,250 feet above sea level with panoramic Greater Himalayan views",
       "tier": "luxury"
     },
@@ -949,9 +2795,135 @@
       "rating": 4.9,
       "reviewsCount": 890,
       "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=600&q=80",
-      "amenities": ["56-acre Mediterranean Oasis", "Direct Private Beach Access", "Olympic-sized Pool", "9-hole Golf Facility", "Jiva Spa"],
+      "amenities": [
+        "56-acre Mediterranean Oasis",
+        "Direct Private Beach Access",
+        "Olympic-sized Pool",
+        "9-hole Golf Facility",
+        "Jiva Spa"
+      ],
       "proximity": "Fronting the untouched white sands of Benaulim South Goa",
       "tier": "luxury"
+    },
+    {
+      "id": "stay-delhi-heritage",
+      "name": "Haveli Dharampura Heritage Hotel",
+      "type": "Heritage Haveli",
+      "tier": "luxury",
+      "city": "Old Delhi",
+      "state": "Delhi",
+      "pricePerNight": 14500,
+      "rating": 4.9,
+      "reviewsCount": 312,
+      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=600&q=80",
+      "amenities": [
+        "Rooftop View of Jama Masjid",
+        "Air Conditioning",
+        "Classical Kathak Dance",
+        "High-Speed WiFi",
+        "Fine Dining"
+      ],
+      "proximity": "In the heart of Chandni Chowk, 500m from Jama Masjid"
+    },
+    {
+      "id": "stay-mumbai-zostel",
+      "name": "Zostel Mumbai Backpackers",
+      "type": "Social Hostel",
+      "tier": "budget",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pricePerNight": 999,
+      "rating": 4.7,
+      "reviewsCount": 680,
+      "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=600&q=80",
+      "amenities": [
+        "High-Speed WiFi",
+        "Air Conditioning",
+        "Common Rooftop Lounge",
+        "Cafe & Co-working",
+        "City Walking Tours"
+      ],
+      "proximity": "Near Andheri East metro station with direct access to airport"
+    },
+    {
+      "id": "stay-ladakh-dragon",
+      "name": "The Grand Dragon Ladakh",
+      "type": "Eco Luxury Hotel",
+      "tier": "luxury",
+      "city": "Leh",
+      "state": "Ladakh",
+      "pricePerNight": 16500,
+      "rating": 4.9,
+      "reviewsCount": 420,
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80",
+      "amenities": [
+        "Oxygen-Enriched Rooms",
+        "Mountain Valley View",
+        "Solar Heated",
+        "Buffet Breakfast",
+        "High-Speed WiFi"
+      ],
+      "proximity": "10 min walk from historic Leh Palace and Central Market"
+    },
+    {
+      "id": "stay-kashmir-houseboat",
+      "name": "Wangnoo Heritage Houseboats",
+      "type": "Boutique Houseboat",
+      "tier": "mid-range",
+      "city": "Srinagar",
+      "state": "Jammu & Kashmir",
+      "pricePerNight": 4200,
+      "rating": 4.8,
+      "reviewsCount": 290,
+      "image": "https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=600&q=80",
+      "amenities": [
+        "Carved Cedarwood Rooms",
+        "Shikara Boat Transfers",
+        "Traditional Wazwan Dining",
+        "Lake View Sun Deck",
+        "High-Speed WiFi"
+      ],
+      "proximity": "Moored serenely on tranquil Nigeen Lake"
+    },
+    {
+      "id": "stay-andaman-barefoot",
+      "name": "Barefoot at Havelock Eco-Resort",
+      "type": "Tropical Beach Resort",
+      "tier": "luxury",
+      "city": "Havelock Island",
+      "state": "Andaman & Nicobar Islands",
+      "pricePerNight": 18000,
+      "rating": 4.9,
+      "reviewsCount": 510,
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80",
+      "amenities": [
+        "Private Pathway to Radhanagar Beach",
+        "Ayurvedic Spa & Wellness",
+        "Scuba Diving Centre",
+        "Organic Dining",
+        "Air Conditioning"
+      ],
+      "proximity": "Direct access to world-famous Radhanagar Beach (Beach No. 7)"
+    },
+    {
+      "id": "stay-tamilnadu-chettinad",
+      "name": "Chidambara Vilas Heritage Mansion",
+      "type": "Heritage Palace",
+      "tier": "mid-range",
+      "city": "Chettinad",
+      "state": "Tamil Nadu",
+      "pricePerNight": 5500,
+      "rating": 4.8,
+      "reviewsCount": 230,
+      "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
+      "amenities": [
+        "Burma Teak Wood Architecture",
+        "Swimming Pool",
+        "Authentic Chettinad Feast",
+        "High-Speed WiFi",
+        "Complimentary Breakfast"
+      ],
+      "proximity": "Situated in Kadiapatti village, 15km from Karaikudi"
     }
   ],
   "budgetMatrices": {
@@ -982,10 +2954,22 @@
       }
     },
     "destinationMultipliers": {
-      "metro-heritage": { "label": "Heritage & Golden Triangle (Delhi, Jaipur, Agra, Varanasi)", "factor": 1.0 },
-      "himalayan": { "label": "Himalayan & Mountain Pass (Himachal, Ladakh, Kashmir)", "factor": 1.15 },
-      "coastal": { "label": "Coastal & Beach Haven (Goa, Kerala, Andaman)", "factor": 1.20 },
-      "offbeat": { "label": "Northeast & Offbeat Heartland (Meghalaya, Hampi, Bastar)", "factor": 0.95 }
+      "metro-heritage": {
+        "label": "Heritage & Golden Triangle (Delhi, Jaipur, Agra, Varanasi)",
+        "factor": 1
+      },
+      "himalayan": {
+        "label": "Himalayan & Mountain Pass (Himachal, Ladakh, Kashmir)",
+        "factor": 1.15
+      },
+      "coastal": {
+        "label": "Coastal & Beach Haven (Goa, Kerala, Andaman)",
+        "factor": 1.2
+      },
+      "offbeat": {
+        "label": "Northeast & Offbeat Heartland (Meghalaya, Hampi, Bastar)",
+        "factor": 0.95
+      }
     }
   }
 }

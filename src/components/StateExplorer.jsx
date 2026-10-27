@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import StateCard from './StateCard';
-import { Search, Filter, SlidersHorizontal, Sparkles, Map, RefreshCw, Heart } from 'lucide-react';
+import { Search, Map, RefreshCw, Heart } from 'lucide-react';
 
 export default function StateExplorer({ 
   states, 
@@ -9,17 +9,19 @@ export default function StateExplorer({
   onToggleBookmark, 
   onCalculateBudget, 
   onFindStays,
-  searchQuery,
-  setSearchQuery,
-  activeLandscapeFilter,
-  setActiveLandscapeFilter
+  onGenerateItinerary,
+  onOpenMap,
+  searchQuery, 
+  setSearchQuery, 
+  activeLandscapeFilter, 
+  setActiveLandscapeFilter 
 }) {
   const [selectedRegion, setSelectedRegion] = useState('All');
   const [sortBy, setSortBy] = useState('rating');
   const [showOnlySaved, setShowOnlySaved] = useState(false);
 
   const regions = [
-    { id: 'All', label: 'All Regions', count: states.length },
+    { id: 'All', label: 'All Regions' },
     { id: 'North', label: 'North India' },
     { id: 'South', label: 'South India' },
     { id: 'East', label: 'East India' },
@@ -103,7 +105,7 @@ export default function StateExplorer({
       {/* Section Header */}
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
         <div>
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-orange-100 text-orange-800 text-xs font-bold mb-2">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-orange-100 text-orange-800 text-xs font-bold mb-2 shadow-xs">
             <Map className="w-3.5 h-3.5 text-orange-600" />
             <span>Interactive Multi-Dimensional Hub</span>
           </div>
@@ -111,22 +113,32 @@ export default function StateExplorer({
             Explore All 28 States & 8 Union Territories
           </h2>
           <p className="mt-1 text-sm sm:text-base text-slate-600">
-            Discover signature spots, royal heritage, diverse cuisines, and localized daily costs in ₹.
+            Discover royal heritage fortresses, snow-capped peaks, authentic cuisines, and localized daily costs in ₹ INR.
           </p>
         </div>
 
-        {/* Saved Toggle Pill */}
-        <div className="flex items-center gap-2 self-start md:self-auto">
+        {/* Action Buttons: Vector Map & Saved Toggle Pill */}
+        <div className="flex flex-wrap items-center gap-2 self-start md:self-auto">
+          {onOpenMap && (
+            <button
+              onClick={onOpenMap}
+              className="px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold flex items-center gap-2 bg-gradient-to-r from-orange-500 via-amber-500 to-orange-600 text-white shadow-xs hover:shadow-md transition-all cursor-pointer hover:scale-105"
+            >
+              <Map className="w-4 h-4 text-white" />
+              <span>Interactive Map</span>
+            </button>
+          )}
+
           <button
             onClick={() => setShowOnlySaved(!showOnlySaved)}
-            className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold flex items-center gap-2 border transition-all cursor-pointer ${
+            className={`px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold flex items-center gap-2 border transition-all cursor-pointer shadow-xs ${
               showOnlySaved 
-                ? 'bg-rose-50 border-rose-300 text-rose-700 shadow-xs' 
+                ? 'bg-rose-50 border-rose-300 text-rose-700' 
                 : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'
             }`}
           >
             <Heart className={`w-4 h-4 ${showOnlySaved ? 'fill-rose-500 text-rose-500' : 'text-slate-400'}`} />
-            <span>Saved States</span>
+            <span>Saved Wishlist</span>
             <span className="px-1.5 py-0.5 rounded-full bg-slate-100 text-[11px] font-bold">
               {bookmarkedStates.length}
             </span>
@@ -140,7 +152,7 @@ export default function StateExplorer({
         {/* Region Tabs (Horizontal Scrollable) */}
         <div>
           <span className="text-[11px] uppercase font-bold text-slate-400 tracking-wider block mb-2.5">
-            1. Select Geographic Zone
+            1. Filter by Geographic Zone
           </span>
           <div className="flex items-center gap-1.5 overflow-x-auto pb-2 scrollbar-none">
             {regions.map((reg) => {
@@ -184,13 +196,13 @@ export default function StateExplorer({
           {/* Search Box */}
           <div className="md:col-span-5">
             <label className="text-[11px] uppercase font-bold text-slate-400 tracking-wider block mb-1">
-              Fuzzy Search by Name / Spot
+              Search by State Name or Signature Spot
             </label>
             <div className="relative">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
               <input
                 type="text"
-                placeholder="E.g., Jaipur, Munnar, Pangong, Kaziranga..."
+                placeholder="E.g., Jaipur, Munnar, Pangong, Kaziranga, Mumbai..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full bg-slate-50 border border-slate-200 text-slate-800 text-xs sm:text-sm rounded-xl pl-9 pr-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-orange-500 font-medium"
@@ -263,8 +275,8 @@ export default function StateExplorer({
         </p>
 
         {filteredStates.length > 0 && (
-          <span className="text-xs text-slate-400">
-            Click any card to open cultural deep-dive
+          <span className="text-xs text-slate-400 hidden sm:inline">
+            Click any card to open complete cultural & attraction deep-dive
           </span>
         )}
       </div>
@@ -281,6 +293,7 @@ export default function StateExplorer({
               onToggleBookmark={onToggleBookmark}
               onCalculateBudget={onCalculateBudget}
               onFindStays={onFindStays}
+              onGenerateItinerary={onGenerateItinerary}
             />
           ))}
         </div>

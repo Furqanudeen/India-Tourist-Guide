@@ -1,5 +1,5 @@
 import React from 'react';
-import { Compass, Heart, ArrowUp } from 'lucide-react';
+import { ArrowUp, Heart } from 'lucide-react';
 
 export default function Footer({ setActiveTab }) {
   const scrollToTop = () => {
@@ -24,10 +24,10 @@ export default function Footer({ setActiveTab }) {
             </div>
 
             <p className="text-sm text-slate-400 max-w-sm leading-relaxed">
-              India's comprehensive, interactive travel guide and planning suite covering all 28 States and 8 Union Territories. Grounded in transparent local economics in Indian Rupees (₹).
+              India's comprehensive, professional interactive tourist guide and planning suite covering all 28 States and 8 Union Territories. Grounded in transparent local economics in Indian Rupees (₹).
             </p>
 
-            <div className="flex items-center gap-2 pt-2">
+            <div className="flex flex-wrap items-center gap-2 pt-2">
               <span className="px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-amber-400 text-xs font-semibold">
                 अतिथि देवो भव (Guest is God)
               </span>
@@ -42,27 +42,45 @@ export default function Footer({ setActiveTab }) {
             <h4 className="text-xs uppercase font-extrabold text-white tracking-wider">
               Quick Navigation
             </h4>
-            <ul className="space-y-2 text-sm">
+            <ul className="space-y-2.5 text-sm">
               <li>
                 <button 
                   onClick={() => { setActiveTab('states'); scrollToTop(); }}
-                  className="hover:text-orange-400 transition-colors cursor-pointer"
+                  className="hover:text-orange-400 transition-colors cursor-pointer text-left"
                 >
                   Explore 28 States & 8 UTs
                 </button>
               </li>
               <li>
                 <button 
-                  onClick={() => { setActiveTab('seasons'); scrollToTop(); }}
-                  className="hover:text-orange-400 transition-colors cursor-pointer"
+                  onClick={() => { setActiveTab('map'); scrollToTop(); }}
+                  className="hover:text-orange-400 transition-colors cursor-pointer text-left flex items-center gap-1.5"
                 >
-                  Seasonal & Climate Planner
+                  <span>Interactive Vector Map</span>
+                  <span className="px-1.5 py-0.5 rounded text-[10px] bg-orange-500/20 text-orange-400 font-bold">Live</span>
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => { setActiveTab('itinerary'); scrollToTop(); }}
+                  className="hover:text-orange-400 transition-colors cursor-pointer text-left flex items-center gap-1.5"
+                >
+                  <span>Custom Itinerary Builder</span>
+                  <span className="px-1.5 py-0.5 rounded text-[10px] bg-amber-500/20 text-amber-300 font-bold">New</span>
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => { setActiveTab('seasons'); scrollToTop(); }}
+                  className="hover:text-orange-400 transition-colors cursor-pointer text-left"
+                >
+                  Seasonal & Climate Guide
                 </button>
               </li>
               <li>
                 <button 
                   onClick={() => { setActiveTab('budget'); scrollToTop(); }}
-                  className="hover:text-orange-400 transition-colors cursor-pointer"
+                  className="hover:text-orange-400 transition-colors cursor-pointer text-left"
                 >
                   Interactive ₹ Budget Calculator
                 </button>
@@ -70,17 +88,17 @@ export default function Footer({ setActiveTab }) {
               <li>
                 <button 
                   onClick={() => { setActiveTab('stays'); scrollToTop(); }}
-                  className="hover:text-orange-400 transition-colors cursor-pointer"
+                  className="hover:text-orange-400 transition-colors cursor-pointer text-left"
                 >
-                  Handpicked Stays & Hostels
+                  Handpicked Stays & Palaces
                 </button>
               </li>
               <li>
                 <button 
                   onClick={() => { setActiveTab('culture'); scrollToTop(); }}
-                  className="hover:text-orange-400 transition-colors cursor-pointer"
+                  className="hover:text-orange-400 transition-colors cursor-pointer text-left"
                 >
-                  Cultural Etiquette & Tips
+                  Cultural Etiquette & Hindi Phrases
                 </button>
               </li>
             </ul>
@@ -91,21 +109,21 @@ export default function Footer({ setActiveTab }) {
             <h4 className="text-xs uppercase font-extrabold text-white tracking-wider">
               Essential Tourist Helplines
             </h4>
-            <div className="space-y-2 text-sm">
-              <div className="p-3 rounded-2xl bg-slate-900 border border-slate-800 flex items-center justify-between">
+            <div className="space-y-2.5 text-sm">
+              <div className="p-3.5 rounded-2xl bg-slate-900 border border-slate-800 flex items-center justify-between">
                 <div>
-                  <span className="text-xs text-slate-400 block">National Emergency</span>
-                  <span className="font-bold text-white text-base">112</span>
+                  <span className="text-[11px] text-slate-400 block uppercase font-bold">National Emergency Number</span>
+                  <span className="font-extrabold text-white text-base">112</span>
                 </div>
-                <span className="text-xs text-slate-500">Police / Ambulance</span>
+                <span className="text-xs text-slate-400 bg-slate-800 px-2 py-1 rounded-lg">Police / Medical</span>
               </div>
 
-              <div className="p-3 rounded-2xl bg-slate-900 border border-slate-800 flex items-center justify-between">
+              <div className="p-3.5 rounded-2xl bg-slate-900 border border-slate-800 flex items-center justify-between">
                 <div>
-                  <span className="text-xs text-slate-400 block">Ministry of Tourism 24x7</span>
-                  <span className="font-bold text-amber-400 text-base">1363 / 1800-11-1363</span>
+                  <span className="text-[11px] text-slate-400 block uppercase font-bold">Ministry of Tourism 24x7</span>
+                  <span className="font-extrabold text-amber-400 text-base">1363</span>
                 </div>
-                <span className="text-xs text-slate-500">12 Languages</span>
+                <span className="text-xs text-slate-400 bg-slate-800 px-2 py-1 rounded-lg">12 Languages</span>
               </div>
             </div>
           </div>
@@ -114,13 +132,15 @@ export default function Footer({ setActiveTab }) {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <p>
-            © {new Date().getFullYear()} BharatYatra Tourist Guide. Crafted with admiration for Incredible India.
+          <p className="flex items-center gap-1">
+            <span>© {new Date().getFullYear()} BharatYatra Tourist Guide. Crafted with</span>
+            <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500 inline" />
+            <span>for Incredible India.</span>
           </p>
 
           <button
             onClick={scrollToTop}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-900 hover:bg-slate-800 text-slate-300 transition-colors cursor-pointer"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-900 hover:bg-slate-800 text-slate-300 transition-colors cursor-pointer border border-slate-800"
           >
             <span>Back to top</span>
             <ArrowUp className="w-3.5 h-3.5" />

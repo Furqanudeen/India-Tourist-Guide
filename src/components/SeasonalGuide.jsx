@@ -1,21 +1,29 @@
 import React, { useState } from 'react';
-import { Sun, CloudRain, Snowflake, Leaf, Thermometer, ShieldCheck, Calendar, ArrowRight, Compass, Sparkles } from 'lucide-react';
+import { 
+  Sun, CloudRain, Snowflake, Leaf, Thermometer, 
+  Calendar, ArrowRight, Compass, Sparkles, ShieldCheck 
+} from 'lucide-react';
 
-export default function SeasonalGuide({ seasonsData, states, onSelectState, onCalculateBudget }) {
+export default function SeasonalGuide({ 
+  seasonsData, 
+  states = [], 
+  onSelectState, 
+  onCalculateBudget 
+}) {
   const [activeSeasonKey, setActiveSeasonKey] = useState('winter');
 
   const seasonKeys = [
-    { key: 'winter', label: 'Winter', months: 'Nov – Feb', icon: Snowflake, color: 'sky' },
-    { key: 'summer', label: 'Summer', months: 'Mar – June', icon: Sun, color: 'amber' },
-    { key: 'monsoon', label: 'Monsoon', months: 'July – Sep', icon: CloudRain, color: 'teal' },
-    { key: 'autumn', label: 'Autumn', months: 'October', icon: Leaf, color: 'orange' },
+    { key: 'winter', label: 'Winter', months: 'Nov – Feb', icon: Snowflake },
+    { key: 'summer', label: 'Summer', months: 'Mar – June', icon: Sun },
+    { key: 'monsoon', label: 'Monsoon', months: 'July – Sep', icon: CloudRain },
+    { key: 'autumn', label: 'Autumn', months: 'October', icon: Leaf },
   ];
 
   const currentSeason = seasonsData[activeSeasonKey] || seasonsData['winter'];
 
   // Match states whose peak season corresponds or are explicitly recommended
   const recommendedStateCards = states.filter((st) => {
-    if (st.peakSeason && st.peakSeason.toLowerCase() === activeSeasonKey) return true;
+    if (st.peakSeason && st.peakSeason.toLowerCase() === activeSeasonKey.toLowerCase()) return true;
     if (currentSeason.recommendedRegions && currentSeason.recommendedRegions.some(reg => reg.toLowerCase().includes(st.name.toLowerCase()))) {
       return true;
     }
@@ -27,7 +35,7 @@ export default function SeasonalGuide({ seasonsData, states, onSelectState, onCa
       
       {/* Section Header */}
       <div className="text-center max-w-3xl mx-auto mb-10">
-        <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-teal-100 text-teal-800 text-xs font-bold mb-3">
+        <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-teal-100 text-teal-800 text-xs font-bold mb-3 shadow-xs">
           <Calendar className="w-3.5 h-3.5 text-teal-600" />
           <span>India Seasonal & Climate Guide</span>
         </div>
@@ -35,7 +43,7 @@ export default function SeasonalGuide({ seasonsData, states, onSelectState, onCa
           Best Places in India by Season
         </h2>
         <p className="mt-2 text-sm sm:text-base text-slate-600">
-          India's vast geography experiences distinct microclimates. Plan your journey according to the ideal weather windows and colorful harvest celebrations.
+          India's vast geography features distinct microclimates. Plan your journey around ideal weather windows, snowscapes, lush monsoon waterfalls, and colorful harvest celebrations.
         </p>
       </div>
 
@@ -73,7 +81,7 @@ export default function SeasonalGuide({ seasonsData, states, onSelectState, onCa
       </div>
 
       {/* Season Climate Card Banner */}
-      <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-xs mb-12">
+      <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200/80 shadow-xs mb-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
           
           <div className="lg:col-span-7 space-y-4">
@@ -85,7 +93,7 @@ export default function SeasonalGuide({ seasonsData, states, onSelectState, onCa
               {currentSeason.name}
             </h3>
 
-            <p className="text-base font-medium text-orange-700">
+            <p className="text-base font-semibold text-orange-700">
               "{currentSeason.tagline}"
             </p>
 
@@ -95,7 +103,7 @@ export default function SeasonalGuide({ seasonsData, states, onSelectState, onCa
 
             <div className="pt-2 flex flex-wrap gap-2 text-xs">
               <span className="font-bold text-slate-700 self-center mr-1">Recommended Terrains:</span>
-              {currentSeason.recommendedRegions.map((region, i) => (
+              {currentSeason.recommendedRegions?.map((region, i) => (
                 <span key={i} className="px-2.5 py-1 rounded-md bg-teal-50 text-teal-800 font-semibold border border-teal-100">
                   {region}
                 </span>
@@ -129,7 +137,7 @@ export default function SeasonalGuide({ seasonsData, states, onSelectState, onCa
         </div>
       </div>
 
-      {/* Seasonal Festivals Row */}
+      {/* Seasonal Festivals */}
       {currentSeason.festivals && currentSeason.festivals.length > 0 && (
         <div className="mb-14">
           <div className="flex items-center justify-between mb-5">
@@ -138,17 +146,17 @@ export default function SeasonalGuide({ seasonsData, states, onSelectState, onCa
                 <Sparkles className="w-5 h-5 text-amber-500" />
                 <span>Major Cultural Festivals in {currentSeason.name.split(' ')[0]}</span>
               </h3>
-              <p className="text-xs sm:text-sm text-slate-500">Unforgettable living traditions taking place across the country</p>
+              <p className="text-xs sm:text-sm text-slate-500">Living traditions and harvest festivities celebrated across India</p>
             </div>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {currentSeason.festivals.map((fest, idx) => (
-              <div key={idx} className="bg-white rounded-2xl p-5 border border-slate-200/80 shadow-xs flex flex-col justify-between">
+              <div key={idx} className="bg-white rounded-2xl p-5 border border-slate-200/80 shadow-xs flex flex-col justify-between hover:border-orange-200 transition-colors">
                 <div>
                   <div className="flex items-center justify-between text-xs text-orange-600 font-bold mb-1.5">
                     <span>{fest.location}</span>
-                    <span className="px-2 py-0.5 rounded-full bg-orange-50 text-[11px]">{fest.month}</span>
+                    <span className="px-2 py-0.5 rounded-full bg-orange-50 text-[11px] font-semibold">{fest.month}</span>
                   </div>
                   <h4 className="font-display font-bold text-base text-slate-900">{fest.name}</h4>
                   <p className="mt-2 text-xs text-slate-600 leading-relaxed">{fest.desc}</p>
@@ -159,15 +167,15 @@ export default function SeasonalGuide({ seasonsData, states, onSelectState, onCa
         </div>
       )}
 
-      {/* Peak Destination Cards for Active Season */}
+      {/* Peak Destination Cards */}
       <div>
         <div className="flex items-center justify-between mb-6">
           <div>
             <h3 className="font-display text-xl sm:text-2xl font-bold text-slate-900 flex items-center gap-2">
               <Compass className="w-5 h-5 text-orange-600" />
-              <span>Top Recommended States for {currentSeason.name.split(' ')[0]}</span>
+              <span>Top Recommended Destinations for {currentSeason.name.split(' ')[0]}</span>
             </h3>
-            <p className="text-xs sm:text-sm text-slate-500">Perfect climate conditions right now</p>
+            <p className="text-xs sm:text-sm text-slate-500">Optimal weather conditions and clear vistas right now</p>
           </div>
         </div>
 
@@ -175,10 +183,12 @@ export default function SeasonalGuide({ seasonsData, states, onSelectState, onCa
           {recommendedStateCards.map((st) => (
             <div 
               key={st.id} 
-              onClick={() => onSelectState(st)}
-              className="group bg-white rounded-2xl overflow-hidden border border-slate-200/80 shadow-xs hover:shadow-lg transition-all duration-200 cursor-pointer flex flex-col"
+              className="group bg-white rounded-2xl overflow-hidden border border-slate-200/80 shadow-xs hover:shadow-lg transition-all duration-200 flex flex-col"
             >
-              <div className="relative h-44 w-full overflow-hidden bg-slate-900">
+              <div 
+                className="relative h-48 w-full overflow-hidden bg-slate-900 cursor-pointer"
+                onClick={() => onSelectState(st)}
+              >
                 <img 
                   src={st.banner} 
                   alt={st.name} 
@@ -206,9 +216,20 @@ export default function SeasonalGuide({ seasonsData, states, onSelectState, onCa
                     <span className="font-bold text-slate-900 text-sm">₹{(st.avgBudgetPerDay || 2200).toLocaleString('en-IN')}</span>
                   </div>
 
-                  <span className="text-xs font-bold text-orange-600 group-hover:text-orange-700 flex items-center gap-1">
-                    Explore Guide <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
-                  </span>
+                  <div className="flex items-center gap-2">
+                    <button
+                      onClick={() => onCalculateBudget(st)}
+                      className="text-xs font-semibold px-2 py-1 rounded-lg bg-orange-50 text-orange-700 hover:bg-orange-100 cursor-pointer"
+                    >
+                      ₹ Budget
+                    </button>
+                    <button
+                      onClick={() => onSelectState(st)}
+                      className="text-xs font-bold text-slate-900 hover:text-orange-600 flex items-center gap-1 cursor-pointer"
+                    >
+                      Guide <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
