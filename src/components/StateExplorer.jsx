@@ -49,7 +49,19 @@ export default function StateExplorer({
         if (selectedRegion === 'Union Territory') {
           if (st.type !== 'Union Territory') return false;
         } else {
-          if (st.region !== selectedRegion) return false;
+          const utGeoMap = {
+            'delhi': 'North',
+            'chandigarh-ut': 'North',
+            'ladakh': 'North',
+            'jammu-and-kashmir': 'North',
+            'puducherry': 'South',
+            'lakshadweep': 'South',
+            'andaman-and-nicobar-islands': 'South',
+            'dadra-nagar-haveli-daman-diu': 'West'
+          };
+          const matchesDirect = st.region === selectedRegion;
+          const matchesGeoUT = utGeoMap[st.id] === selectedRegion;
+          if (!matchesDirect && !matchesGeoUT) return false;
         }
       }
 
@@ -71,10 +83,16 @@ export default function StateExplorer({
         const inTag = st.tagline ? st.tagline.toLowerCase().includes(q) : false;
         const inDesc = st.description ? st.description.toLowerCase().includes(q) : false;
         const inAttractions = st.attractions 
-          ? st.attractions.some(a => a.name.toLowerCase().includes(q) || a.city.toLowerCase().includes(q))
+          ? st.attractions.some(a => a.name.toLowerCase().includes(q) || a.city.toLowerCase().includes(q) || (a.desc && a.desc.toLowerCase().includes(q)))
+          : false;
+        const inCuisine = st.famousCuisine
+          ? st.famousCuisine.some(c => c.name.toLowerCase().includes(q) || (c.desc && c.desc.toLowerCase().includes(q)))
+          : false;
+        const inCultural = st.culturalHighlights
+          ? st.culturalHighlights.some(h => h.toLowerCase().includes(q))
           : false;
 
-        if (!inName && !inCap && !inTag && !inDesc && !inAttractions) return false;
+        if (!inName && !inCap && !inTag && !inDesc && !inAttractions && !inCuisine && !inCultural) return false;
       }
 
       return true;

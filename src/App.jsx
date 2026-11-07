@@ -217,6 +217,7 @@ export default function App() {
         onSelectState={handleSelectState}
         onCalculateBudget={handleCalculateBudgetForState}
         onFindStays={handleFindStaysForState}
+        onGenerateItinerary={handleGenerateItineraryForState}
       />
 
       {/* Footer */}

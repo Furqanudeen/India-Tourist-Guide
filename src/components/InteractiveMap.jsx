@@ -95,6 +95,8 @@ const STATE_CENTERS = {
 
 // Small territory quick pins for easy tapping
 const SMALL_TERRITORIES = [
+  { id: 'ladakh', name: 'Ladakh', cx: 175, cy: 65, badge: 'High Passes' },
+  { id: 'jammu-and-kashmir', name: 'J&K', cx: 145, cy: 65, badge: 'Paradise on Earth' },
   { id: 'delhi', name: 'Delhi', cx: 186, cy: 210, badge: 'Capital UT' },
   { id: 'goa', name: 'Goa', cx: 122, cy: 512, badge: 'Beaches' },
   { id: 'chandigarh-ut', name: 'Chandigarh', cx: 180, cy: 160, badge: 'City Beautiful' },
@@ -248,7 +250,9 @@ export default function InteractiveMap({
     return states.filter(s => 
       s.name.toLowerCase().includes(q) || 
       (s.capital && s.capital.toLowerCase().includes(q)) ||
-      (s.landscape && s.landscape.toLowerCase().includes(q))
+      (s.landscape && s.landscape.toLowerCase().includes(q)) ||
+      (s.attractions && s.attractions.some(a => a.name.toLowerCase().includes(q) || a.city.toLowerCase().includes(q))) ||
+      (s.famousCuisine && s.famousCuisine.some(c => c.name.toLowerCase().includes(q)))
     ).slice(0, 5);
   }, [searchMapQuery, states]);
 
@@ -548,7 +552,10 @@ export default function InteractiveMap({
               <g id="india-state-paths">
                 {(svgMapsIndia?.locations || svgMapsIndia?.default?.locations || []).map((loc) => {
                   const guideId = STATE_CODE_TO_ID[loc.id];
-                  const isSelected = selectedStateId === guideId || (selectedStateId === 'jk-split' && loc.id === 'jk');
+                  const isSelected = selectedStateId === guideId || 
+                    (loc.id === 'jk' && (selectedStateId === 'jk-split' || selectedStateId === 'ladakh' || selectedStateId === 'jammu-and-kashmir')) ||
+                    (loc.id === 'dd' && selectedStateId === 'dadra-nagar-haveli-daman-diu') ||
+                    (loc.id === 'dn' && selectedStateId === 'dadra-nagar-haveli-daman-diu');
                   const isHovered = hoveredLocationId === loc.id;
                   const fillColor = getStateColor(loc.id);
 
@@ -721,7 +728,8 @@ export default function InteractiveMap({
               alt={selectedState.name}
               className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500"
               onError={(e) => {
-                e.currentTarget.src = "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=80";
+                e.currentTarget.onerror = null;
+                e.currentTarget.src = "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80";
               }}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
@@ -896,7 +904,8 @@ export default function InteractiveMap({
                 key={s.id}
                 onClick={() => {
                   setSelectedStateId(s.id);
-                  const el = document.getElementById(`state-path-${Object.keys(STATE_CODE_TO_ID).find(k => STATE_CODE_TO_ID[k] === s.id)}`);
+                  const code = s.id === 'ladakh' ? 'jk' : Object.keys(STATE_CODE_TO_ID).find(k => STATE_CODE_TO_ID[k] === s.id);
+                  const el = document.getElementById(`state-path-${code}`);
                   if (el) el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
                 }}
                 className={`flex items-center gap-3 p-2 rounded-2xl border shrink-0 transition-all cursor-pointer ${
@@ -910,7 +919,8 @@ export default function InteractiveMap({
                   alt={s.name} 
                   className="w-10 h-10 rounded-xl object-cover"
                   onError={(e) => {
-                    e.currentTarget.src = "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=150&q=80";
+                    e.currentTarget.onerror = null;
+                    e.currentTarget.src = "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=150&q=80";
                   }}
                 />
                 <div className="text-left pr-2">

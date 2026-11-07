@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { 
   X, Heart, MapPin, Trash2, 
-  Share2 
+  Share2, Check, Route 
 } from 'lucide-react';
 
 export default function SavedDrawer({ 
@@ -12,8 +12,30 @@ export default function SavedDrawer({
   onToggleBookmark, 
   onSelectState, 
   onCalculateBudget, 
-  onFindStays 
+  onFindStays,
+  onGenerateItinerary
 }) {
+  const [copied, setCopied] = useState(false);
+
+  useEffect(() => {
+    if (!isOpen) return;
+    const originalOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') {
+        onClose();
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.body.style.overflow = originalOverflow;
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isOpen, onClose]);
+
   if (!isOpen) return null;
 
   const savedStateObjects = allStates.filter(s => bookmarkedStates.includes(s.id));
@@ -29,7 +51,8 @@ export default function SavedDrawer({
     text += `Planned with Incredible India Tourist Guide`;
 
     navigator.clipboard.writeText(text);
-    alert('Your travel wishlist has been copied to your clipboard!');
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2200);
   };
 
   return (
@@ -86,7 +109,8 @@ export default function SavedDrawer({
                     alt={state.name} 
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     onError={(e) => {
-                      e.currentTarget.src = "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=300&q=80";
+                      e.currentTarget.onerror = null;
+                      e.currentTarget.src = "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=300&q=80";
                     }}
                   />
                 </div>
@@ -130,6 +154,22 @@ export default function SavedDrawer({
                     </span>
 
                     <div className="flex items-center gap-1.5">
+                      {onGenerateItinerary && (
+                        <>
+                          <button
+                            onClick={() => {
+                              onClose();
+                              onGenerateItinerary(state);
+                            }}
+                            className="text-[11px] font-bold text-amber-700 hover:text-amber-900 cursor-pointer flex items-center gap-0.5"
+                            title="Plan Itinerary"
+                          >
+                            <Route className="w-3 h-3 text-amber-600" />
+                            <span>Plan</span>
+                          </button>
+                          <span className="text-slate-300">•</span>
+                        </>
+                      )}
                       <button
                         onClick={() => {
                           onClose();
@@ -180,10 +220,23 @@ export default function SavedDrawer({
 
             <button
               onClick={handleExportWishlist}
-              className="w-full py-3 rounded-2xl bg-slate-900 hover:bg-orange-600 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all cursor-pointer shadow-xs"
+              className={`w-full py-3 rounded-2xl text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all cursor-pointer shadow-xs ${
+                copied 
+                  ? 'bg-emerald-600' 
+                  : 'bg-slate-900 hover:bg-orange-600'
+              }`}
             >
-              <Share2 className="w-4 h-4" />
-              <span>Copy Full Wishlist Plan</span>
+              {copied ? (
+                <>
+                  <Check className="w-4 h-4 text-white" />
+                  <span>Wishlist Copied to Clipboard!</span>
+                </>
+              ) : (
+                <>
+                  <Share2 className="w-4 h-4" />
+                  <span>Copy Full Wishlist Plan</span>
+                </>
+              )}
             </button>
           </div>
         )}

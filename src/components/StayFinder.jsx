@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { 
   Bed, Star, MapPin, 
   X, Search, 
@@ -16,6 +16,26 @@ export default function StayFinder({ stays = [], initialTierFilter, initialLocat
   const [bookingGuests, setBookingGuests] = useState(2);
   const [bookingSuccess, setBookingSuccess] = useState(false);
   const [confirmationCode, setConfirmationCode] = useState('');
+
+  // Lock body scroll and listen for Escape when booking modal is open
+  useEffect(() => {
+    if (!bookingModalStay) return;
+    const originalOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') {
+        setBookingModalStay(null);
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.body.style.overflow = originalOverflow;
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [bookingModalStay]);
 
   const tiers = [
     { id: 'all', label: 'All Accommodations' },
@@ -248,6 +268,7 @@ export default function StayFinder({ stays = [], initialTierFilter, initialLocat
                     loading="lazy"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     onError={(e) => {
+                      e.currentTarget.onerror = null;
                       e.currentTarget.src = "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80";
                     }}
                   />

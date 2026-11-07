@@ -27,7 +27,8 @@ export default function StateCard({
           loading="lazy"
           className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 opacity-90 group-hover:opacity-100"
           onError={(e) => {
-            e.currentTarget.src = "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=80";
+            e.currentTarget.onerror = null;
+            e.currentTarget.src = "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80";
           }}
         />
 
@@ -156,9 +157,10 @@ export default function StateCard({
                 <button
                   onClick={() => onGenerateItinerary(state)}
                   title="Generate custom trip itinerary for this state"
-                  className="p-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 transition-colors text-xs font-semibold flex items-center gap-1 cursor-pointer"
+                  className="p-2 rounded-xl bg-amber-50 hover:bg-amber-100 text-amber-800 transition-colors text-xs font-semibold flex items-center gap-1 cursor-pointer"
                 >
                   <Route className="w-3.5 h-3.5 text-amber-600" />
+                  <span className="hidden sm:inline">Plan</span>
                 </button>
               )}
             </div>

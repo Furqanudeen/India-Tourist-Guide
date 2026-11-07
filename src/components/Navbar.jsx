@@ -31,7 +31,10 @@ export default function Navbar({
           
           {/* Logo & Brand */}
           <div 
-            onClick={() => { setActiveTab('states'); }} 
+            onClick={() => { 
+              setActiveTab('states'); 
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }} 
             className="flex items-center gap-3 cursor-pointer group shrink-0"
           >
             <div className="w-11 h-11 rounded-2xl bg-gradient-to-tr from-amber-600 via-orange-500 to-amber-400 flex items-center justify-center text-white shadow-md shadow-orange-500/20 group-hover:scale-105 transition-transform duration-200">
@@ -152,11 +155,23 @@ export default function Navbar({
             <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
             <input 
               type="text"
-              placeholder="Search 28 states, 8 UTs..."
+              placeholder="Search 28 states, 8 UTs, foods..."
               value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full bg-slate-100 text-sm text-slate-800 rounded-xl pl-10 pr-4 py-2.5 border border-slate-200 focus:outline-none focus:ring-2 focus:ring-orange-500"
+              onChange={(e) => {
+                setSearchQuery(e.target.value);
+                if (activeTab !== 'states') setActiveTab('states');
+              }}
+              className="w-full bg-slate-100 text-sm text-slate-800 rounded-xl pl-10 pr-9 py-2.5 border border-slate-200 focus:outline-none focus:ring-2 focus:ring-orange-500"
             />
+            {searchQuery && (
+              <button 
+                onClick={() => setSearchQuery('')}
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-slate-400 hover:text-slate-600 p-1"
+                title="Clear search"
+              >
+                ✕
+              </button>
+            )}
           </div>
 
           <div className="grid grid-cols-1 gap-1">

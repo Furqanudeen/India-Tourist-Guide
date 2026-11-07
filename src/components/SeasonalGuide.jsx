@@ -24,7 +24,16 @@ export default function SeasonalGuide({
   // Match states whose peak season corresponds or are explicitly recommended
   const recommendedStateCards = states.filter((st) => {
     if (st.peakSeason && st.peakSeason.toLowerCase() === activeSeasonKey.toLowerCase()) return true;
-    if (currentSeason.recommendedRegions && currentSeason.recommendedRegions.some(reg => reg.toLowerCase().includes(st.name.toLowerCase()))) {
+    if (currentSeason.recommendedRegions && currentSeason.recommendedRegions.some(reg => {
+      const r = reg.toLowerCase();
+      const n = st.name.toLowerCase();
+      return r.includes(n) || 
+        (st.id === 'karnataka' && (r.includes('coorg') || r.includes('western ghats'))) || 
+        (st.id === 'rajasthan' && r.includes('udaipur')) || 
+        (st.id === 'himachal-pradesh' && r.includes('spiti')) ||
+        (st.id === 'goa' && activeSeasonKey === 'monsoon') ||
+        (st.id === 'maharashtra' && activeSeasonKey === 'monsoon');
+    })) {
       return true;
     }
     return false;
@@ -194,7 +203,8 @@ export default function SeasonalGuide({
                   alt={st.name} 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90"
                   onError={(e) => {
-                    e.currentTarget.src = "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=80";
+                    e.currentTarget.onerror = null;
+                    e.currentTarget.src = "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80";
                   }}
                 />
                 <span className="absolute top-3 left-3 px-2.5 py-0.5 rounded-full bg-slate-900/80 text-white text-[10px] font-bold uppercase tracking-wider backdrop-blur-md">

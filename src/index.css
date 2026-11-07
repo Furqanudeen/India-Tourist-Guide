@@ -167,3 +167,24 @@
 .duration-300 {
   animation-duration: 300ms;
 }
+
+/* Print Styles for Itineraries and Travel Guides */
+@media print {
+  header, footer, nav, button, .no-print {
+    display: none !important;
+  }
+  body, main {
+    background: #ffffff !important;
+    color: #0f172a !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .glass-panel {
+    background: transparent !important;
+    backdrop-filter: none !important;
+    border: none !important;
+  }
+  .shadow-xs, .shadow-md, .shadow-lg, .shadow-xl, .shadow-2xl {
+    box-shadow: none !important;
+  }
+}
