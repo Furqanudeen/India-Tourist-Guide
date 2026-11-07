@@ -61,7 +61,7 @@
           "name": "Sam Sand Dunes",
           "city": "Jaisalmer",
           "tag": "Thar Desert",
-          "image": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=600&q=80",
+          "image": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=600&q=80",
           "desc": "Sunset camel safaris, desert folk camps, and stargazing under crisp desert skies."
         }
       ],
@@ -881,7 +881,7 @@
       "tagline": "White Rann of Kutch, Asiatic Lions & Vibrant Garba",
       "rating": 4.8,
       "featured": false,
-      "banner": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=1200&q=80",
+      "banner": "https://images.unsplash.com/photo-1670923331633-be262e035a9a?auto=format&fit=crop&w=1200&q=80",
       "bestMonths": "November to February",
       "peakSeason": "Winter",
       "avgBudgetPerDay": 2300,
@@ -911,14 +911,14 @@
           "name": "White Rann of Kutch",
           "city": "Kutch",
           "tag": "Endless Salt Desert",
-          "image": "https://images.unsplash.com/photo-1509299349698-dd22323b5963?auto=format&fit=crop&w=600&q=80",
+          "image": "https://images.unsplash.com/photo-1670923331633-be262e035a9a?auto=format&fit=crop&w=600&q=80",
           "desc": "Vast expanse of white salt desert glistening under moonlight during the annual Rann Utsav."
         },
         {
           "name": "Statue of Unity",
           "city": "Kevadia",
           "tag": "World's Tallest Statue",
-          "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=600&q=80",
+          "image": "https://images.unsplash.com/photo-1621859294461-2e6e4bf0e689?auto=format&fit=crop&w=600&q=80",
           "desc": "182-meter monumental tribute to Sardar Vallabhbhai Patel with high-speed viewing gallery overlooking Narmada dam."
         },
         {
@@ -929,11 +929,11 @@
           "desc": "Rugged deciduous teak forests offering jeep safaris to witness wild Asiatic lions in their native territory."
         },
         {
-          "name": "Somnath & Dwarkadhish Temples",
-          "city": "Saurashtra Coast",
-          "tag": "Ancient Shore Temples",
-          "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80",
-          "desc": "First of the 12 holy Shiva Jyotirlingas directly on the Arabian Sea shore, alongside Lord Krishna's sacred capital."
+          "name": "Modhera Sun Temple & Somnath",
+          "city": "Mehsana & Saurashtra",
+          "tag": "Ancient Architectural Wonders",
+          "image": "https://images.unsplash.com/photo-1573131615374-9b754dfeeb0e?auto=format&fit=crop&w=600&q=80",
+          "desc": "11th-century Solanki-era stepwell Sun Temple at Modhera alongside the sacred shore shrine of Somnath."
         }
       ],
       "travelTips": "Book Gir safari permits 60 days ahead online. Full moon nights during Rann Utsav (November-February) offer unforgettable desert views."
