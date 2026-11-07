@@ -2,6 +2,8 @@
 
 A modern, responsive, and highly interactive travel planning web application built to showcase India's extraordinary cultural, climatic, and geographical diversity across all **28 States and 8 Union Territories**.
 
+🌐 **Live Website**: [https://furqanudeen.github.io/India-Tourist-Guide/](https://furqanudeen.github.io/India-Tourist-Guide/)
+
 ![Tech Stack](https://img.shields.io/badge/Stack-React%20%7C%20Vite%20%7C%20TailwindCSS-orange)
 ![Currency](https://img.shields.io/badge/Currency-Indian%20Rupees%20(%E2%82%B9)%20%7C%20USD%20%7C%20EUR%20%7C%20GBP-emerald)
 ![Coverage](https://img.shields.io/badge/Coverage-28%20States%20%2B%208%20UTs%20(100%25)-blue)
@@ -74,7 +76,7 @@ A modern, responsive, and highly interactive travel planning web application bui
 ### Local Development
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/india-tourist-guide.git
+git clone https://github.com/Furqanudeen/India-Tourist-Guide.git
 
 # Navigate to project directory
 cd india-tourist-guide
